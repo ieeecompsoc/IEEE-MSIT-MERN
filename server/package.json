@@ -1,12 +1,12 @@
 {
-  "name": "sahil",
+  "name": "ieee",
   "version": "1.0.0",
-  "description": "This is a package created while studying express",
-  "main": "app.js",
+  "description": "IEEE MSIT",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sahil",
+  "author": "IEEE",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
