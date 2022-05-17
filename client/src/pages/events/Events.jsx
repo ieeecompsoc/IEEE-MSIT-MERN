@@ -13,7 +13,7 @@ const Events = () => {
                 </div>
 
                 <div class="navlogo">
-                    <img src="assets/src/IEEE_white 1logo.png" />
+                    <img src="assets/IEEE_white 1logo.png" />
                 </div>
             </nav>
 
