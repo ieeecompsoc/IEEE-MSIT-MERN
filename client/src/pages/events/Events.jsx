@@ -1,28 +1,29 @@
 import react from 'react';
 import './events.css';
+import IEEE_WHITE from '../../assets/IEEE_white 1logo.PNG';
 
 const Events = () => {
     return (
         <div className="events__page">
             <nav>
-                <div class="organisation">
+                <div className="organisation">
                     <a href='' rel='noreferer'>&nbsp; IEEE.org &nbsp; |</a>
                     <a href='' rel='noreferer'>&nbsp; IEEE Xplore Digital Library &nbsp; |</a>
                     <a href='' rel='noreferer'>&nbsp; IEEE Standards &nbsp; |</a>
                     <a href='' rel='noreferer'>&nbsp;  IEEE Spectrum</a>
                 </div>
 
-                <div class="navlogo">
-                    <img src="assets/IEEE_white 1logo.png" />
+                <div className="navlogo">
+                    <img src={IEEE_WHITE} />
                 </div>
             </nav>
 
-            <div class="section">
-                <div class="expand">
-                    <i class="fa fa-align-justify"></i>
+            <div className="section">
+                <div className="expand">
+                    <i className="fa fa-align-justify"></i>
                 </div>  
 
-                <div class="hyplinks">
+                <div className="hyplinks">
                     <div><a href="#"> Home</a></div>
                     <div><a href="#"> About Us</a></div>
                     <div> <a href="#"> Events</a></div>
@@ -30,46 +31,46 @@ const Events = () => {
                 </div>
             </div>
 
-            <div class="heading">
+            <div className="heading">
                 <h2>Events From IEEE This Tenure</h2>
                 <hr/>
             </div>
 
-            <div class="event-container">
+            <div className="event-container">
             
-                <div class="event">
-                    <div class="event-left">
+                <div className="event">
+                    <div className="event-left">
                         <img src="" alt="" />
                     </div>
             
-                    <div class="event-right">
-                        <h3 class="event-title">Some Title Here</h3>
+                    <div className="event-right">
+                        <h3 className="event-title">Some Title Here</h3>
             
-                        <div class="event-description">
+                        <div className="event-description">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
                             ratione.
                         </div>
             
-                        <div class="event-timing">
+                        <div className="event-timing">
                             <img src="" alt="" /> 10:30 am
                         </div>
                     </div>
                 </div>
             
-                <div class="event">
-                    <div class="event-left">
+                <div className="event">
+                    <div className="event-left">
                         <img src="" alt="" />
                     </div>
             
-                    <div class="event-right">
-                        <h3 class="event-title">Some Title Here</h3>
+                    <div className="event-right">
+                        <h3 className="event-title">Some Title Here</h3>
             
-                        <div class="event-description">
+                        <div className="event-description">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
                             ratione.
                         </div>
             
-                        <div class="event-timing">
+                        <div className="event-timing">
                             <img src="" alt="" /> 10:30 am
                         </div>
                     </div>
