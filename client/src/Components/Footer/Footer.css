@@ -24,22 +24,27 @@
 
 .app__navbar-ieeeLinks-verticalDiv {
     border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
     height: 1.5rem;
 }
 
 @media screen and (max-width: 900px) {
     .app__footer > ul {
-        column-gap: 0.75rem;
+        column-gap: 0.5rem;
     }
 
     .app__footer > ul > li {
         font-size: 0.75rem;
     }
+
+    .app__navbar-ieeeLinks-verticalDiv {
+        height: 1rem;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .app__footer > ul {
-        column-gap: 0.5rem;
+        column-gap: 0.35rem;
     }
 }
 
@@ -48,7 +53,7 @@
         font-size: 0.6rem;
     }
 
-    .app__footer > ul {
-        column-gap: 0.35rem;
+    .app__navbar-ieeeLinks-verticalDiv {
+        height: 0.9rem;
     }
 }
