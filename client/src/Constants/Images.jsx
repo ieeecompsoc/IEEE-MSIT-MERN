@@ -1,10 +1,10 @@
-import logoMainWhite from '../Assets/ieeeLogo.svg';
-import logoMainBlue from '../Assets/ieeeLogo-blue.svg';
-import ieeeMainImg from '../Assets/IEEEMainPhoto.svg';
-import cs from '../Assets/computerSocietyLogo.svg';
-import wie from '../Assets/WIELogo.svg';
-import pes from '../Assets/PESLogo.svg';
-import ras from '../Assets/RASLogo.svg';
+import logoMainWhite from '../assets/ieeeLogo.svg';
+import logoMainBlue from '../assets/ieeeLogo-blue.svg';
+import ieeeMainImg from '../assets/IEEEMainPhoto.svg';
+import cs from '../assets/computerSocietyLogo.svg';
+import wie from '../assets/WIELogo.svg';
+import pes from '../assets/PESLogo.svg';
+import ras from '../assets/RASLogo.svg';
 
 export default {
     logoMainWhite,

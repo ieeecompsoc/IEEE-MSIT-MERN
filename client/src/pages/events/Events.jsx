@@ -1,6 +1,6 @@
 import react from 'react';
-import './Events.css';
-import IEEE_WHITE from '../../Assets/IEEE_white 1logo.PNG';
+import './events.css';
+import IEEE_WHITE from '../../assets/IEEE_white 1logo.PNG';
 
 const Events = () => {
     return (
