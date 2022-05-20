@@ -1,36 +1,12 @@
 import react from 'react';
 import './events.css';
 import IEEE_WHITE from '../../assets/IEEE_white 1logo.PNG';
+import Menubar from '../../Components/Navbar/Menubar';
 
 const Events = () => {
     return (
         <div className="events__page">
-            <nav>
-                <div className="organisation">
-                    <a href='' rel='noreferer'>&nbsp; IEEE.org &nbsp; |</a>
-                    <a href='' rel='noreferer'>&nbsp; IEEE Xplore Digital Library &nbsp; |</a>
-                    <a href='' rel='noreferer'>&nbsp; IEEE Standards &nbsp; |</a>
-                    <a href='' rel='noreferer'>&nbsp;  IEEE Spectrum</a>
-                </div>
-
-                <div className="navlogo">
-                    <img src={IEEE_WHITE} />
-                </div>
-            </nav>
-
-            <div className="section">
-                <div className="expand">
-                    <i className="fa fa-align-justify"></i>
-                </div>  
-
-                <div className="hyplinks">
-                    <div><a href="#"> Home</a></div>
-                    <div><a href="#"> About Us</a></div>
-                    <div> <a href="#"> Events</a></div>
-                    <div><a href="#"> Executive Board</a></div>
-                </div>
-            </div>
-
+            <Menubar backgroundClr="#78BE20" />
             <div className="heading">
                 <h2>Events From IEEE This Tenure</h2>
                 <hr/>
@@ -76,11 +52,6 @@ const Events = () => {
                     </div>
                 </div>
             </div>
-
-            <footer>
-                <p>Join IEEE | Contact us | Maharaja Surajmal Institute of Technology | Copyright &#169; 2022, IEEE MSIT</p>
-            </footer>
-
         </div>
     )
 }
