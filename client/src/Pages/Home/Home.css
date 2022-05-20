@@ -1,0 +1,242 @@
+.app__home {
+    position: relative;
+}
+
+.app__home-mainImg {
+    width: 100%;
+    height: calc(100vh - 50px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__home-mainImg > img:nth-of-type(1) {
+    width: 100%;
+    object-fit: cover;
+}
+
+.app__home-mainImg-ieeeLogo {
+    width: 500px;
+    position: absolute;
+}
+
+.app__home-logoContainer {
+    padding: 10px;
+    padding-inline: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app__home-logoContainer > figure {
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__home-logoContainer > figure > img {
+    object-fit: contain;
+}
+
+.app__home-messageContainer {
+    height: 100%;
+    width: 100%;
+    padding: 2.5rem 8rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    background-color: #C4C4C4;
+}
+
+.app__home-headerContainer {
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: max-content;
+    gap: 5px;
+}
+
+.app__home-messageWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.app__home-header {
+    font-size: 2.25rem;
+}
+
+.app__home-messageContainer-message {
+    font-size: 1.1rem;
+    line-height: 25px;
+    color: black;
+}
+
+.hr-blue {
+    height: 5px;
+    width: 180px;
+    background-color: #00629B;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__home-logoContainer {
+        padding-inline: 5rem;
+    }
+
+    .app__home-mainImg {
+        height: 70vh;
+    }
+
+    .app__home-mainImg > img:nth-of-type(1) {
+        height: 100%;
+    }
+
+    .app__home-mainImg-ieeeLogo {
+        width: 400px;
+    }
+
+    .app__home-messageContainer {
+        padding: 2rem 5rem;
+        padding-bottom: 3rem;
+    }
+
+    .app__home-messageContainer-message {
+        font-size: 1rem;
+        line-height: 22.5px;
+    }
+    
+    .app__home-header {
+        font-size: 2rem;
+    }
+    
+    .hr-blue {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .app__home-logoContainer > figure {
+        width: 120px;
+    }
+
+    .app__home-messageContainer {
+        gap: 2rem;
+    }
+
+    .app__home-header {
+        font-size: 1.85rem;
+    }
+    
+    .hr-blue {
+        height: 4px;
+        width: 135px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app__home-logoContainer {
+        padding-inline: 2.5rem;
+    }
+
+    .app__home-logoContainer > figure {
+        width: 100px;
+    }
+
+    .app__home-mainImg {
+        height: 60vh;
+    }
+
+    .app__home-mainImg-ieeeLogo {
+        width: 350px;
+    }
+
+    .app__home-messageContainer {
+        padding: 1rem 2.5rem;
+        padding-bottom: 3rem;
+        gap: 1.7rem;
+    }
+
+    .app__home-messageContainer-message {
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+
+    .app__home-header {
+        font-size: 1.75rem;
+    }
+    
+    .hr-blue {
+        height: 3.5px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__home-logoContainer > figure {
+        width: 80px;
+    }
+
+    .app__home-logoContainer {
+        padding-inline: 1rem;
+    }
+
+    .app__home-mainImg {
+        height: 45vh;
+    }
+
+    .app__home-mainImg-ieeeLogo {
+        width: 250px;
+    }
+
+    .app__home-messageContainer {
+        gap: 1.5rem;
+    }
+
+    .app__home-messageContainer-message {
+        font-size: 0.85rem;
+    }
+
+    .app__home-header {
+        font-size: 1.5rem;
+    }
+    
+    .hr-blue {
+        height: 2.75px;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__home-logoContainer > figure {
+        width: 50px;
+    }
+
+    .app__home-mainImg {
+        height: 30vh;
+    }
+
+    .app__home-mainImg-ieeeLogo {
+        width: 200px;
+    }
+
+    .app__home-header {
+        font-size: 1.3rem;
+    }
+    
+    .hr-blue {
+        height: 2.25px;
+        width: 95px;
+    }
+
+    .app__home-messageContainer-message {
+        font-size: 0.75rem;
+        line-height: 18.5px;
+    }
+}

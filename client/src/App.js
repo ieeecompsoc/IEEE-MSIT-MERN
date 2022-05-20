@@ -1,20 +1,27 @@
 import React from 'react';
-import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
-import Events from "./pages/events/Events";
-import About from "./pages/about/About";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css'
 
-function App() {
+import Navbar from './Components/Navbar/Navbar';
+import Home from './Pages/Home/Home';
+import Events from './Pages/Events/Events'
+import About from './Pages/About/About'
+import Footer from './Components/Footer/Footer';
+
+const App = () => {
   return (
-    <div className="App">
-      <Router>
-        <Routes>
-          {/* <Route path='/' element={</Home>} exact /> */}
-          <Route path='Events' element={<Events />} />
-          <Route path='About' element={<About />} />
-        </Routes>
-      </Router>
-    </div>
-  );
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/about' element={<About />} />
+        <Route path='/events' element={<Events />} />
+        {/* <Route path='/blogs' element={<Blogs />} />
+        <Route path='/execom' element={<Execom />} /> */}
+        <Route path='/' element={<Home />} excat />
+      </Routes>
+      <Footer />
+    </Router>
+  )
 }
 
-export default App;
+export default App
