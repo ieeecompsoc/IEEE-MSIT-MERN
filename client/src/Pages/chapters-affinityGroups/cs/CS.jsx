@@ -4,7 +4,7 @@ import './cs.css';
 const CS = () => {
     return (
         <div className="compsoc__chapter">
-
+            COMPUTER SOCIETY
         </div>
     )
 }
