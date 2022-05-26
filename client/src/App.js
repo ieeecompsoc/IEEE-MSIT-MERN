@@ -3,14 +3,14 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 
 import Navbar from './Components/Navbar/Navbar';
-import Home from './pages/Home/Home';
-import Events from './pages/events/Events'
-import About from './pages/about/About'
+import Home from './Pages/Home/Home';
+import Events from './Pages/events/Events'
+import About from './Pages/about/About'
 import Footer from './Components/Footer/Footer';
-import RAS from './pages/chapters-affinityGroups/ras/RAS';
-import PES from './pages/chapters-affinityGroups/pes/PES';
-import CS from './pages/chapters-affinityGroups/cs/CS';
-import WIE from './pages/chapters-affinityGroups/wie/WIE';
+import RAS from './Pages/chapters-affinityGroups/ras/RAS';
+import PES from './Pages/chapters-affinityGroups/pes/PES';
+import CS from './Pages/chapters-affinityGroups/cs/CS';
+import WIE from './Pages/chapters-affinityGroups/wie/WIE';
 
 const App = () => {
   return (
