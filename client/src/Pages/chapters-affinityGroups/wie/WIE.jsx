@@ -1,5 +1,5 @@
 import react from 'react';
-import './wie.css';
+import './WIE.css';
 
 const WIE = () => {
     return (

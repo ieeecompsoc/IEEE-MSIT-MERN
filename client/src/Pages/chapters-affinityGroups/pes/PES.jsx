@@ -1,5 +1,5 @@
 import react from 'react';
-import './pes.css';
+import './PES.css';
 
 const PES = () => {
     return (

@@ -1,8 +1,8 @@
 import react from 'react';
-import './about.css';
-import IEEE_WHITE from '../../assets/IEEE_white 1logo.PNG';
-import aboutMain from '../../assets/aboutMain.png';
-import ieeeWhite from '../../assets/ieeeWhite.svg';
+import './About.css';
+import IEEE_WHITE from '../../Assets/IEEE_white 1logo.PNG';
+import aboutMain from '../../Assets/aboutMain.png';
+import ieeeWhite from '../../Assets/ieeeWhite.svg';
 import Menubar from '../../Components/Navbar/Menubar';
 
 const About = () => {
