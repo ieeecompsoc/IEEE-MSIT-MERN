@@ -25,28 +25,29 @@ const Team =
 // form data format case may differ
 const form = 
 {
-    "name" : "",
-    "email" : "",
-    "stream" : "",
-    "part of" : "",
-    "position" : "",
-    "linkedin" : "",
-    "instagram" : "",
-    "resume" : "",
-    "image" : ""
+  "rank": "",
+  "name" : "",
+  "email" : "",
+  "stream" : "",
+  "part" : "",
+  "position" : "",
+  "linkedin" : "",
+  "instagram" : "",
+  "resume" : "",
+  "image" : ""
 }
 
 // read from the csvfile and write into ExeComDetails file
-fs.createReadStream('./CSV_FILENAME.csv')
+fs.createReadStream('./src/Pages/ExeCom/team.csv')
   .pipe(csv())
   .on('data', (data) => results.push(data))
   .on('end', () => {
-    for(let i = 0; i < results.length; i++){
+    for(let i = 0; i < results.length - 1; i++){
       let res = results[i];
-      const part = res["partOf"];
+      const part = res["part"];
       Team[part].push(res);
     };
-    fs.writeFileSync("./src/pages/ExeCom/ExeComDetails.json", JSON.stringify(Team), (err) => {
+    fs.writeFileSync("./src/Pages/ExeCom/ExeComDetails.json", JSON.stringify(Team), (err) => {
       if(err){
         throw err;
       } else {
