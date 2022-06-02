@@ -1,4 +1,14 @@
-// import the data file (ExeComDetails.json) for further use
+import React from 'react';
+const team = require("./ExeComDetails.json");
 
-// uncomment the part below part you have the team details
-// import team from "./ExeComDetails.json";
+const ExeCom = () => {
+    return (
+        <div className='execom__page'>
+            Execom Details
+        </div>
+    )
+}
+
+console.log(team);
+
+export default ExeCom;

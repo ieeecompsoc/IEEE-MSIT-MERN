@@ -11,6 +11,7 @@ import RAS from './Pages/Chapters-AffinityGroups/RAS/RAS';
 import PES from './Pages/Chapters-AffinityGroups/PES/PES';
 import CS from './Pages/Chapters-AffinityGroups/CS/CS';
 import WIE from './Pages/Chapters-AffinityGroups/WIE/WIE';
+import ExeCom from './Pages/ExeCom/ExeCom';
 
 const App = () => {
   return (
@@ -19,8 +20,8 @@ const App = () => {
       <Routes>
         <Route path='/about' element={<About />} />
         <Route path='/events' element={<Events />} />
-        {/* <Route path='/blogs' element={<Blogs />} />
-        <Route path='/execom' element={<Execom />} /> */}
+        {/* <Route path='/blogs' element={<Blogs />} />  */}
+        <Route path='/execom' element={<ExeCom />} />
         <Route path='/' element={<Home />} excat />
         {/* <Route path='/chapters' /> */}
         <Route path='chapters/ras' element={<RAS />} />
@@ -33,4 +34,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
