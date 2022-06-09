@@ -1,17 +1,21 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css'
+import './App.css';
 
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home/Home';
-import Events from './Pages/Events/Events'
-import About from './Pages/About/About'
+import Events from './Pages/Events/Events';
+import About from './Pages/About/About';
 import Footer from './Components/Footer/Footer';
 import RAS from './Pages/Chapters-AffinityGroups/RAS/RAS';
 import PES from './Pages/Chapters-AffinityGroups/PES/PES';
 import CS from './Pages/Chapters-AffinityGroups/CS/CS';
 import WIE from './Pages/Chapters-AffinityGroups/WIE/WIE';
 import ExeCom from './Pages/ExeCom/ExeCom';
+import Login from './Components/Authentication/Login';
+import SignUp from './Components/Authentication/SignUp';
+import AddEvent from './Components/Forms/AddEvent';
+import AddExecom from './Components/Forms/AddExecom';
 
 const App = () => {
   return (
@@ -28,6 +32,10 @@ const App = () => {
         <Route path='chapters/pes' element={<PES />} />
         <Route path='chapters/cs' element={<CS />} />
         <Route path='/affinityGroup/wie' element={<WIE />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<SignUp />} />
+        <Route path='/events/add' element={<AddEvent />} />
+        <Route path='/execom/add' element={<AddExecom />} />
       </Routes>
       <Footer />
     </Router>
