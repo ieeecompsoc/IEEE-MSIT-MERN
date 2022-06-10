@@ -14,7 +14,7 @@
 .app__home-mainImg > img:nth-of-type(1) {
     width: 100%;
     object-fit: cover;
-    filter: blur(3px);
+    filter: blur(2px);
 }
 
 .app__home-mainImg-ieeeLogo {
