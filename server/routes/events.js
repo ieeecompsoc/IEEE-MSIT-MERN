@@ -1,13 +1,14 @@
 const express = require('express');
 const router = express.Router();
 const Event = require('../models/Event');
+const { protect } = require('../middlewares/auth.middleware');
 
 router.get('/get', async (req, res) => {
     const events = await Event.find()
     res.json(events)
 })
 
-router.post('/add', async (req, res) => {
+router.post('/add', protect, async (req, res) => {
     try {
         const { event_title, event_description, image, event_date } = req.body
         const event = await Event.create({ event_title, event_description, image, event_date })
