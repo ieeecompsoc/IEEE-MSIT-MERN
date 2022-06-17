@@ -3,6 +3,7 @@ import './Home.css'
 import Menubar from '../../Components/Navbar/Menubar'
 import Images from '../../Constants/Images'
 import logoImages from '../../Constants/HomeImageLogo'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -17,7 +18,9 @@ const Home = () => {
                     {(logoImages).map((image, index) => {
                         return (
                             <figure key={index}>
-                                <img src={image.source} alt={image.name} title={image.name} />
+                                <Link to={image.url} >
+                                    <img src={image.source} alt={image.name} title={image.name} />
+                                </Link>
                             </figure>
                         )
                     })}
