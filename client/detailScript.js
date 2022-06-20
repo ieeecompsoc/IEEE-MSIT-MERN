@@ -45,6 +45,8 @@ fs.createReadStream('./src/Pages/ExeCom/team.csv')
     for(let i = 0; i < results.length - 1; i++){
       let res = results[i];
       const part = res["part"];
+      const image = res["image"].substring(30);
+      res["image"] = `https://drive.google.com/uc?export=view&${image}`;
       Team[part].push(res);
     };
     fs.writeFileSync("./src/Pages/ExeCom/ExeComDetails.json", JSON.stringify(Team), (err) => {

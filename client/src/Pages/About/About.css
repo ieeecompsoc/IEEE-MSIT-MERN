@@ -39,19 +39,15 @@
 /* <-------------FOOTER -------------> */
 
 @media (max-width : 768px) {
-
-    .container{
-        padding: 0.1rem 1rem;
-        padding-bottom: 2rem;
-        padding-top: 2rem;
-        gap: 1.5rem;
+/* 
+    .heading hr {
+        max-width: 8rem;
+        margin-top: -0.6rem;
     }
 
-    .message {
-        font-size: 0.8rem; 
-        line-height: 22px;
-        gap: 1.5rem;
-    }
+    .heading h2 {
+        font-size: 1.4rem;
+    } */
 
     footer>p {
         margin-left: 0%;
