@@ -39,6 +39,7 @@ h1 {
 /* <-------------FOOTER -------------> */
 
 @media (max-width : 768px) {
+/* 
     .heading hr {
         max-width: 8rem;
         margin-top: -0.6rem;
@@ -46,7 +47,7 @@ h1 {
 
     .heading h2 {
         font-size: 1.4rem;
-    }
+    } */
 
     footer>p {
         margin-left: 0%;
