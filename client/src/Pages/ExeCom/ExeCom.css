@@ -3,7 +3,8 @@
 }
 
 .app__execom-mainContainer {
-    padding-block: 2rem;
+    padding-top: calc(45px + 3.25rem);
+    padding-bottom: 3.25rem;
     display: flex;
     flex-direction: column;
 }
@@ -278,4 +279,230 @@
     color: #FFFFFF;
 }
 
-/* -------------------------------- */
+/* ----------------------------------- */
+
+/* ---------- Media Queries ---------- */
+
+@media screen and (max-width: 1150px) {
+    .app__execom-mainContainer {
+        padding-top: calc(45px + 2.8rem);
+        padding-bottom: 2.8rem;
+    }
+
+    .app__execom-header {
+        font-size: 2rem;
+    }
+
+    .hr-header {
+        width: 150px;
+    }
+
+    .execom_card__wrapper {
+        max-width: 85%;
+    }
+
+    .execom_card__main {
+        padding-block: 2.2rem;
+        gap: 2.2rem;
+    }
+
+    .app__execom-execomListContainer {
+        gap: 2.75rem;
+    }
+
+    .execom_card__listContainer {
+        gap: 4.7rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .app__execom-header {
+        font-size: 1.85rem;
+    }
+
+    .hr-header {
+        height: 4px;
+        width: 135px;
+    }
+
+    .execom_card__description-name {
+        font-size: 1.25rem;
+    }
+
+    .execom_card__description-department {
+        font-size: 1rem;
+    }
+
+    .execom_card__description-designation {
+        font-size: 0.9rem;
+    }
+
+    .linkIcons {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app__execom-mainContainer {
+        padding-top: calc(30px + 2.35rem);
+        padding-bottom: 2.35rem;
+    }
+
+    .app__execom-header {
+        font-size: 1.75rem;
+    }
+
+    .hr-header {
+        height: 3.5px;
+        width: 130px;
+    }
+
+    .execom_card__wrapper {
+        max-width: 90%;
+    }
+
+    .execom_card__main {
+        padding-block: 2rem;
+        gap: 2rem;
+    }
+
+    .app__execom-execomListContainer {
+        gap: 2.35rem;
+    }
+
+    .execom_card__listContainer {
+        gap: 4.35rem;
+    }
+
+    .execom_card__wrapper {
+        gap: 1.75rem;
+    }
+
+    .execom_card__image {
+        align-items: flex-end;
+    }
+
+    .execom_card__image-linksContainer {
+        height: max-content;
+        padding-block: 2.5px;
+        padding-inline: 10px;
+        opacity: 1;
+        background-color: hsl(0 0% 0% / 0.75);
+    }
+
+    .execom_card__image-main .execom_card__image-linksContainer {
+        background-color: hsl(202 100% 30% / 0.75);
+    }
+    
+    .execom_card__image-cs .execom_card__image-linksContainer {
+        background-color: hsl(38 100% 50% / 0.75);
+    }
+    
+    .execom_card__image-ras .execom_card__image-linksContainer {
+        background-color: hsl(348 88% 39% / 0.75);
+    }
+    
+    .execom_card__image-pes .execom_card__image-linksContainer {
+        background-color: hsl(148 100% 26% / 0.75);
+    }
+    
+    .execom_card__image-wie .execom_card__image-linksContainer {
+        background-color: hsl(300 68% 35% / 0.75);
+    }
+
+    .linkIcons {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__execom-mainContainer {
+        padding-top: calc(25px + 2.2rem);
+        padding-bottom: 2.2rem;
+    }
+
+    .app__execom-header {
+        font-size: 1.5rem;
+    }
+
+    .hr-header {
+        height: 2.75px;
+        width: 110px;
+    }
+
+    .execom_card__description-name {
+        font-size: 1.15rem;
+    }
+
+    .execom_card__main {
+        padding-block: 1.8rem;
+        gap: 1.8rem;
+    }
+
+    .app__execom-execomListContainer {
+        gap: 1.85rem;
+    }
+
+    .execom_card__listContainer {
+        gap: 4rem;
+    }
+
+    .linkIcons {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__execom-header {
+        font-size: 1.3rem;
+    }
+
+    .hr-header {
+        height: 2.25px;
+        width: 95px;
+    }
+
+    .execom_card__wrapper {
+        max-width: 95%;
+    }
+
+    .execom_card__description-name {
+        font-size: 1rem;
+    }
+
+    .execom_card__description-department {
+        font-size: 0.9rem;
+    }
+
+    .execom_card__description-designation {
+        font-size: 0.8rem;
+    }
+
+    .execom_card__main {
+        padding-block: 1.7rem;
+        gap: 1.7rem;
+    }
+
+    .execom_card__listContainer {
+        gap: 3.25rem;
+    }
+
+    .execom_card__wrapper {
+        gap: 1.35rem;
+    }
+
+    .linkIcons {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .execom_card {
+        width: 225px;
+    }
+    .execom_card__image {
+        height: 300px;
+    }
+}
+
+/* ----------------------------------- */
