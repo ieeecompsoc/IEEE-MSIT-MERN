@@ -62,7 +62,8 @@
 }
 
 .execom_card__wrapper {
-    width: 100%;
+    max-width: 75%;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,13 +89,13 @@
 }
 
 .cs {
-    outline: 1px solid hsl(348 88% 39% / 0.2);
-    box-shadow: 5px 5px 10px #BA0C2f;
+    outline: 1px solid hsl(38 100% 50% / 0.2);
+    box-shadow: 5px 5px 10px #FFA300;
 }
 
 .ras {
-    outline: 1px solid hsl(38 100% 50% / 0.2);
-    box-shadow: 5px 5px 10px #FFA300;
+    outline: 1px solid hsl(348 88% 39% / 0.2);
+    box-shadow: 5px 5px 10px #BA0C2f;
 }
 
 .pes {
@@ -127,11 +128,11 @@
 }
 
 .execom_card__image-cs {
-    outline: 1px solid hsl(348 88% 39% / 0.3);
+    outline: 1px solid hsl(38 100% 50% / 0.3);
 }
 
 .execom_card__image-ras {
-    outline: 1px solid hsl(38 100% 50% / 0.3);
+    outline: 1px solid hsl(348 88% 39% / 0.3);
 }
 
 .execom_card__image-pes {
@@ -199,11 +200,11 @@
 }
 
 .execom_card__description-name-cs {
-    color:#BA0C2f;
+    color:#FFA300;
 }
 
 .execom_card__description-name-ras {
-    color:#FFA300;
+    color:#BA0C2f;
 }
 
 .execom_card__description-name-pes {
@@ -242,11 +243,11 @@
 }
 
 .cs:hover .execom_card__description {
-    background-color: hsl(348 88% 39% / 0.75);
+    background-color: hsl(38 100% 50% / 0.75);
 }
 
 .ras:hover .execom_card__description {
-    background-color: hsl(38 100% 50% / 0.75);
+    background-color: hsl(348 88% 39% / 0.75);
 }
 
 .pes:hover .execom_card__description {
