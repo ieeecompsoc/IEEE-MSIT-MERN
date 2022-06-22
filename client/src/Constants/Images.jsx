@@ -5,6 +5,10 @@ import cs from '../Assets/computerSocietyLogo.svg';
 import wie from '../Assets/WIELogo.svg';
 import pes from '../Assets/PESLogo.svg';
 import ras from '../Assets/RASLogo.svg';
+import anupamaKaushik from '../Assets/anupamaKaushik.jpg';
+import jyotiJain from '../Assets/jyotiJain.jpg';
+import poojaKherwa from '../Assets/poojaKherwa.jpeg';
+import anshulPareek from '../Assets/anshulPareek.jpeg';
 
 export default {
     logoMainWhite,
@@ -13,5 +17,9 @@ export default {
     cs,
     wie,
     pes,
-    ras
+    ras,
+    anupamaKaushik,
+    jyotiJain,
+    poojaKherwa,
+    anshulPareek
 }

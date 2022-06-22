@@ -1,14 +1,7 @@
-.navbar-link {
-    font-family: 'Open Sans',sans-serif;
-    color: white;
-    text-decoration: none;
-    padding: 0 1%;
-}
-
 .heading {
     font-weight: 700;
     font-size: 3rem;
-    margin: 3% auto;
+    margin: 0% auto;
 }
 
 .pes_line {
@@ -17,46 +10,6 @@
     height: 10px;
     border-width: 0;
     margin-bottom: 3%;
-}
-
-.flex1 {
-    width: 70%;
-}
-
-.header {
-    font-family: Open Sans;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5% 6%;
-    background-color: black;
-    font-size: 1rem;
-    line-height: 1rem;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.ieee-logo {
-    height: 46px;
-    width: 119px;
-    border-radius: 0;
-}
-
-.bar {
-    border-right: 1px solid white;
-}
-
-.pes_navbar {
-    background-color: #00843D;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1.5% 3%;
-    font-size: 1.7rem;
-}
-
-.about {
-    font-weight: 700;
 }
 
 .contents {
@@ -79,38 +32,8 @@
     line-height: 1.8rem;
 }
 
-.footer {
-    background-color: black;
-    font-size: 1rem;
-    line-height: 1.2rem;
-    letter-spacing: 0em;
-    text-align: center;
-    padding: 1%;
-}
-
-.copyright {
-    display: inline;
-    color: white;
-    text-decoration: none;
-    margin-left: 1%;
-}
-
 @media (max-width: 700px) {
-
-    .header {
-        font-size: 0.8rem;
-        line-height: 1.3rem;
-    }
-
-    .RAS-img {
-        width: 50%;
-    }
-
     .heading {
         text-align: center;
-    }
-
-    .navbar {
-        padding: 5% 3%;
     }
 }
