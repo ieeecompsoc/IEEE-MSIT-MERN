@@ -2,7 +2,7 @@
     width: 100%;
     max-height: none;
     min-width: none;
-    padding: 0.25rem 8rem;
+    padding: 0.6rem 8rem;
     position: absolute;
     z-index: 999;
     box-shadow: none;
@@ -101,7 +101,7 @@
 
 @media screen and (max-width: 1150px) {
     .app__menubar {
-        padding: 0.25rem 5rem;
+        padding: 0.6rem 5rem;
     }
 }
 

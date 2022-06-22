@@ -19,11 +19,11 @@ const About = () => {
 
                 <div className="container">
                     <b>
-                        <h1>About the Student Branch</h1>
+                        <h1 id="head">About the Student Branch</h1>
                     </b>
-                    <hr/>
+                    <hr className="hrule"/>
                     <div className="text-cont">
-                        <p>
+                        <p className="message">
                             IEEE MSIT has a pivitol role to play in advancing technological pursuits and social
                             networking of
                             MSIT. Since it's inception in 2009, it has played a forward role in providing it's members a
@@ -35,16 +35,16 @@ const About = () => {
                             and opportunities such as hackathons, seminars, hands-on workshops, industrial visits, women
                             empowerment seminars, technical project exhibitions, STEP programmes and a lot more.
                         </p>
-                        <p>
+                        <p className="message">
                             The latest IEEE MSIT advent is it's AWP-PCB lab which is a project centric lab aiming at
                             finding
                             hardware solutions to real world glitches faced by the institution as a whole.
                         </p>
-                        <p>
-                            EEE MSIT plans to keep growing, directing, mentoring and spontaneously nurturing the budding
+                        <p className="message">
+                            IEEE MSIT plans to keep growing, directing, mentoring and spontaneously nurturing the budding
                             technologists of the institution.
                         </p>
-                        <p>
+                        <p className="message">
                             With TPE as it's major project exhibitory event, IEEE MSIT focusses on hardware and software
                             solutions and provides a ready platform for the budding engineers across the country to
                             exhibit
@@ -52,7 +52,7 @@ const About = () => {
                             by a panel
                             of experienced judges who serve as able mentors to the students.
                         </p>
-                        <p>
+                        <p className="message">
                             With it's wide reach, IEEE MSIT serves as an ideal platform for the students to network,
                             co-learn and
                             develop.

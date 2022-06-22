@@ -1,27 +1,27 @@
-h1 {
-    margin-left: 33%;
-}
+
 
 /* <-------------abouts -------------> */
 
 .container {
     background-color: #D9D8D4;
     align-items: center;
-    margin-top: -1.2rem;
+    
     margin-bottom: -1rem;
     align-items: center;
 }
 
-h1 {
-    margin-left: 45%;
+#head {
+    text-align: center;
     font-size: 2rem;
 }
 
-.container>hr {
-    height: 3px;
+.hrule {
+    height: 5px;
     background-color: #00629B;
-    width: 18rem;
-    margin-top: -1.5rem;
+    width: 180px;
+    margin-left: 43%;
+    
+    
 }
 
 .text-cont {
@@ -39,6 +39,18 @@ h1 {
 /* <-------------FOOTER -------------> */
 
 @media (max-width : 768px) {
+    .container{
+        padding: 0.1rem 1rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        gap: 1.5rem;
+    }
+    .message {
+        font-size: 0.8rem; 
+        line-height: 22px;
+        gap: 1.5rem;
+    }
+  /* 
     .heading hr {
         max-width: 8rem;
         margin-top: -0.6rem;
@@ -46,14 +58,30 @@ h1 {
 
     .heading h2 {
         font-size: 1.4rem;
-    }
+    } */
+
 
     footer>p {
         margin-left: 0%;
     }
 
     .text-cont {
-        margin-left: 5%;
+        padding: 2rem;
+        padding-top: 1rem;
+        gap: 1.5rem;
+    }
+
+    #head {
+        font-size: 1.5rem;
+    }
+
+    .imageContainer{
+        max-width: 100%;
+    }
+
+    .mainImg {
+
+        max-height: 45vh;
     }
 
     .ieeeLogoWhite {
@@ -61,9 +89,11 @@ h1 {
 
     }
 
-    .container>hr {
-        width: 6rem;
+    .hrule {
+       
+        margin-left: 25%;
     }
+    
 }
 
 
@@ -79,7 +109,9 @@ h1 {
 
 .mainImg {
     max-width: 100%;
+    height: calc(100vh - 50px);
     object-fit: cover;
+    
 }
 
 .ieeeLogoWhite {
