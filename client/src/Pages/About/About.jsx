@@ -41,7 +41,7 @@ const About = () => {
                             hardware solutions to real world glitches faced by the institution as a whole.
                         </p>
                         <p className="message">
-                            EEE MSIT plans to keep growing, directing, mentoring and spontaneously nurturing the budding
+                            IEEE MSIT plans to keep growing, directing, mentoring and spontaneously nurturing the budding
                             technologists of the institution.
                         </p>
                         <p className="message">

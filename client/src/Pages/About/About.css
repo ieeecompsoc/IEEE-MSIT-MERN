@@ -17,7 +17,10 @@
     height: 5px;
     background-color: #00629B;
     width: 180px;
+  
     margin-left: 43%;
+  /*  margin-left: 39%;*/
+  
     
     
 }
@@ -37,14 +40,12 @@
 /* <-------------FOOTER -------------> */
 
 @media (max-width : 768px) {
-
     .container{
         padding: 0.1rem 1rem;
         padding-bottom: 2rem;
         padding-top: 2rem;
         gap: 1.5rem;
     }
-
     .message {
         font-size: 0.8rem; 
         line-height: 22px;
@@ -78,15 +79,16 @@
         max-width: 220px;
 
     }
-    .hrule{
-        margin-left: 25%;
+
+    .hrule {
+       
+        margin-left: auto;
+        margin-right: auto; 
+      /*  margin-left: 20%;
+        padding-left: 1rem;*/
+        width: 130px;
     }
-
-  /*  .container>hr {
-        width: 7rem;
-        margin-left: 19%;
-    }*/
-
+    
 }
 
 
@@ -104,7 +106,7 @@
     max-width: 100%;
     height: calc(100vh - 50px);
     object-fit: cover;
-    
+    filter: blur(2px);
 }
 
 .ieeeLogoWhite {
