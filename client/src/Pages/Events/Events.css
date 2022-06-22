@@ -15,17 +15,19 @@
     text-align: center;
 }
 
-.heading>h2 {
+.heading2 {
     font-family: 'Open Sans';
     font-size: 35px;
-
+    padding-top: 60px;
 }
 
-.heading>hr {
+.headingHr {
     height: 3px;
     background-color: #78BE20;
     width: 18rem;
-    margin-top: -1.5rem;
+    margin-top: 0.9rem;
+    margin-left: 37%;
+
 }
 
 /* <------------- events -------------> */
@@ -34,6 +36,7 @@
     font-family: "Roboto", sans-serif;
     max-width: 800px;
     margin: 0 auto;
+
 }
 
 .event-container h3.year {
@@ -45,14 +48,15 @@
 .event-container .event {
     box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
     display: flex;
-    border-radius: 8px;
-    margin: 32px 0;
+    border-radius: 8px 0px 8px 0px;
+    margin: 32px 0 ;
+
 }
 
 
 .event .event-left {
     background: #222;
-    min-width: 82px;
+    min-width: 255px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,12 +108,21 @@
 }
 
 @media (max-width : 768px) {
-    .heading hr {
+    .headingHr {
         max-width: 8rem;
-        margin-top: -0.6rem;
+        margin-top: 0.9rem;
+        margin-left: 33%;
     }
 
-    .heading h2 {
+    .heading2 {
         font-size: 1.4rem;
+    }
+    .event-container .event {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        display: list-item;
+    }
+    .event .event-left{
+        min-height: 250px;
     }
 }
