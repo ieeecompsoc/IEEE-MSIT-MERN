@@ -1,4 +1,5 @@
 .heading {
+    font-family: 'Open Sans',sans-serif;
     font-weight: 700;
     font-size: 3rem;
     margin: 0% auto;
@@ -6,13 +7,16 @@
 
 .wie_line {
     background-color: #971D96;
-    width: 17%;
-    height: 10px;
+    width: 25%;
+    height: 8px;
     border-width: 0;
     margin-bottom: 3%;
+    margin-top: 1.5%;
 }
 
 .contents {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
     padding: 3% 10%;
     display: flex;
     flex-direction: column;
@@ -22,10 +26,12 @@
 
 .WIE-img {
     width: 35%;
-    margin-bottom: 7%;
+    margin-bottom: 6%;
 }
 
 .wie_main-content {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
     color: #3A0D3A;
     font-size: 1.2rem;
     padding: 2% 3%;
@@ -33,11 +39,18 @@
 }
 
 @media (max-width: 700px) {
-    .RAS-img {
+    .WIE-img {
+        width: 80% !important;
+        margin-bottom: 3%;
+        margin-top: 6% !important;
+    }
+
+    .wie_line {
         width: 50%;
     }
 
     .heading {
         text-align: center;
+        margin-bottom: 2% !important;
     }
 }
