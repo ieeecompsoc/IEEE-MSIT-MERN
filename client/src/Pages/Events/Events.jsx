@@ -14,8 +14,8 @@ const Events = () => {
         <div className="events__page">
             <Menubar backgroundClr="#78BE20" />
             <div className="heading">
-                <h2>Events From IEEE This Tenure</h2>
-                <hr />
+                <h2 className="heading2">Events From IEEE This Tenure</h2>
+                <hr className="headingHr"/>
             </div>
 
             <div className="event-container">
