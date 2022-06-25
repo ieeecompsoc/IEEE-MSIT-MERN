@@ -8,7 +8,8 @@ router.get('/get', async (req, res) => {
     res.json(events)
 })
 
-router.post('/add', protect, async (req, res) => {
+// router.post('/add', protect, async (req, res) => {
+router.post('/add', async (req, res) => {
     try {
         const { event_title, event_description, image, event_date } = req.body
         const event = await Event.create({ event_title, event_description, image, event_date })

@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const mongoConnect = require('./db');
 const authUser = require('./routes/auth');
 
@@ -7,6 +8,7 @@ mongoConnect()
 const app = express();
 let port = 8000;
 
+app.use(cors({ origin: '*' }))
 app.use(express.json())
 app.use('/events', require('./routes/events'));
 app.use('/api/user', authUser);
