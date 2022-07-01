@@ -1,3 +1,4 @@
+import './addEvent.css'
 import React, { useState, useEffect } from 'react';
 
 const AddEvent = () => {
@@ -16,8 +17,8 @@ const AddEvent = () => {
 
     function showUploadWidget() {
         window.cloudinary.openUploadWidget({
-            cloudName: "dm797vijq",
-            uploadPreset: "afvf1xpv",
+            cloudName: "dbl20ma8s",
+            uploadPreset: "qdlgnwlt",
             sources: [
                 "local",
                 "camera",
@@ -68,11 +69,17 @@ const AddEvent = () => {
 
     return (
         <div className='addEvent__container'>
-            <form>
-                <input type='text' placeholder='Enter event title' required={true} onChange={event => setTitle(event.target.value)} />
-                <input type='text' placeholder='Enter event description' required={true} onChange={event => setDescription(event.target.value)} />
-                <input type='datetime-local' required={true} onChange={event => setDate(event.target.value)} />
+            <form className='event_form'>
+                <label for='title'>Title</label>
+                <input name='title' type='text' placeholder='Enter event title' required={true} onChange={event => setTitle(event.target.value)} />
+
+                <label for='description'>Description</label>
+                <input name='description' type='text' placeholder='Enter event description' required={true} onChange={event => setDescription(event.target.value)} />
+                
+                <label for='date'>Description</label>
+                <input name='date' type='datetime-local' required={true} onChange={event => setDate(event.target.value)} />
                 {/* className="cloudinary-button" has defined styles */}
+                
                 <label htmlFor='image'>Image:</label>
                 <button type='button' id='image' onClick={showUploadWidget} className="addEvent__button" disabled={!title || !description || !date}>{'Upload & Submit'}</button>
             </form>

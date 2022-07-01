@@ -14,7 +14,8 @@ router.post('/add', async (req, res) => {
         const { event_title, event_description, image, event_date } = req.body
         const event = await Event.create({ event_title, event_description, image, event_date })
         res.json(event)
-    } catch {
+    } catch (err) { 
+        console.log(err);
         res.status(500).json({ error: 'Some Error Occured' })
     }
 })
