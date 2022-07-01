@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './Events.css';
-import IEEE_WHITE from '../../Assets/IEEE_white 1logo.PNG';
 import Menubar from '../../Components/Navbar/Menubar';
 
 const Events = () => {
