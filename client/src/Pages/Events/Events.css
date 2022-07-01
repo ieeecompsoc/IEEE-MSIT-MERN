@@ -22,11 +22,12 @@
 }
 
 .headingHr {
-    height: 3px;
+    height: 5px;
     background-color: #78BE20;
-    width: 18rem;
+    /* width: 18rem; */
+    width: 23vw;
     margin-top: 0.9rem;
-    margin-left: 37%;
+    margin-left: 39vw;
 
 }
 
@@ -38,18 +39,19 @@
     margin: 0 auto;
 
 }
-
+/* 
 .event-container h3.year {
     font-size: 40px;
     text-align: center;
     border-bottom: 1px solid #b1b1b1;
-}
+} */
 
 .event-container .event {
     box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
     display: flex;
     border-radius: 8px 0px 8px 0px;
     margin: 32px 0 ;
+    list-style-type: none;
 
 }
 
@@ -110,8 +112,10 @@
 @media (max-width : 768px) {
     .headingHr {
         max-width: 8rem;
-        margin-top: 0.9rem;
+        margin-top: 0.2rem;
         margin-left: 33%;
+        height: 2.5px;
+        width: 30vw;
     }
 
     .heading2 {
@@ -125,4 +129,6 @@
     .event .event-left{
         min-height: 250px;
     }
+
+
 }
