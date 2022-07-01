@@ -1,17 +1,118 @@
-.addEvent__container {
-    width: 100vw;
-    height: max-content;
+.addEvent {
     display: flex;
-    justify-content: center;
+    align-items: start;
+    padding-bottom: 4rem;
+}
+
+.addEvent__container {
+    width: 100%;
+    max-width: 750px;
+    margin-inline: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 50px 0;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.addEvent_heading {
+    color: #305B96;
+    font-weight: bold;
+    border-bottom: 2px solid #305B96;
 }
 
 .event_form {
-    height: 100%;
+    width: 100%;
+    padding: 1.5rem 3rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: hsl(0, 0%, 77%, 0.175);
+    border-radius: 5px;
 }
 
-.event_form input {
+.eventForm_inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.8rem;
+}
+
+.input_container {
+    min-height: 75px;
+}
+
+.textarea_container {
+    min-height: 120px;
+}
+
+.event_form label {
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: max-content;
+    border-bottom: 1.5px solid #000000;
+    transition: all 0.2s ease-in-out;
+}
+
+.event_form input,
+.event_form textarea {
+    background-color: transparent;
     display: block;
     width: 100%;
+    border: none;
+    border-bottom: 1px solid hsl(0, 0%, 37%, 0.5);
+    height: 2rem;
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.event_form textarea {
+    resize: none;
+    height: 5rem;
+}
+
+.event_form input:focus,
+.event_form textarea:focus {
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid hsl(215, 52%, 39%, 0.85);
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.activeTitle,
+.activeDescription,
+.activeDate {
+    color: #305B96 !important;
+    font-size: 1rem !important;
+    border-bottom: 1px solid #305B96 !important;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700 !important;
+}
+
+.eventForm_inputContainer:last-of-type {
+    gap: 10px;
+    min-height: max-content;
+}
+
+.addEvent__button {
+    width: max-content;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    outline: 1px solid #305B96;
+    color: #305B96;
+    font-weight: 700;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.addEvent__button:hover {
+    background-color: #305B96;
+    color: #FFFFFF;
+    transition: all 0.2s ease-in-out;
 }
