@@ -1,5 +1,3 @@
-
-
 /* <-------------abouts -------------> */
 
 .container {
@@ -19,7 +17,10 @@
     height: 5px;
     background-color: #00629B;
     width: 180px;
+  
     margin-left: 43%;
+  /*  margin-left: 39%;*/
+  
     
     
 }
@@ -50,16 +51,6 @@
         line-height: 22px;
         gap: 1.5rem;
     }
-  /* 
-    .heading hr {
-        max-width: 8rem;
-        margin-top: -0.6rem;
-    }
-
-    .heading h2 {
-        font-size: 1.4rem;
-    } */
-
 
     footer>p {
         margin-left: 0%;
@@ -73,6 +64,7 @@
 
     #head {
         font-size: 1.5rem;
+        padding-left: 1rem;
     }
 
     .imageContainer{
@@ -91,7 +83,14 @@
 
     .hrule {
        
-        margin-left: 25%;
+        margin-left: auto;
+        margin-right: auto; 
+
+      /*  margin-left: 20%;
+        padding-left: 1rem;*/
+      /*  margin-left: 25%;
+        padding-left: 1rem; */
+        width: 130px;
     }
     
 }
@@ -111,7 +110,7 @@
     max-width: 100%;
     height: calc(100vh - 50px);
     object-fit: cover;
-    
+    filter: blur(2px);
 }
 
 .ieeeLogoWhite {
