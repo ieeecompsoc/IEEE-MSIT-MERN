@@ -1,0 +1,17 @@
+.addEvent__container {
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.event_form {
+    height: 100%;
+}
+
+.event_form input {
+    display: block;
+    width: 100%;
+}

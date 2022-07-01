@@ -1,7 +1,9 @@
 const mongoose = require("mongoose")
-// require('dotenv').config({ path: './.env' })
+require('dotenv').config()
 
-const uri = 'mongodb://localhost:27017/ieee';
+// const uri = process.env.MONGO_URI;
+
+const uri = process.env.MONGO_URI || 'mongodb://localhost:27017/ieee';
 
 module.exports = () => {
     mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true }, () => {

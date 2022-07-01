@@ -1,0 +1,9 @@
+update menubar (size and responsive)
+about us image blur and increase the underline size and responsive
+events remove bullets in responsive and image corners
+chapters and affinity groups
+- responsive
+- underline size
+- image position
+add hardcoded data for the teachers section
+build form pages
