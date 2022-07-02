@@ -2,7 +2,6 @@ import './addEvent.css'
 import React, { useState, useEffect } from 'react';
 
 import Menubar from '../Navbar/Menubar';
-import { useRef } from 'react';
 
 const AddEvent = () => {
     const [titleRef, setTitleRef] = useState(false);
@@ -91,12 +90,10 @@ const AddEvent = () => {
                         <label htmlFor='date' className={(dateRef) ? ("activeDate") : ("")}>Date & Time</label>
                         <input name='date' id='date' type='datetime-local' required={true} onChange={event => setDate(event.target.value)} onFocus={() => (setDateRef(true))} onBlur={() => (setDateRef(false))} />
                     </div>
-                    
                     <div className="eventForm_inputContainer">
                         <label htmlFor='image' style={{"color": "#305B96", "borderBlockEnd": "1px solid #305B96"}}>Event Image</label>
                         <button type='button' id='image' onClick={showUploadWidget} className="addEvent__button" disabled={!title || !description || !date}>{'Upload & Submit'}</button>
                     </div>
-                    
                 </form>
             </div>
         </div>

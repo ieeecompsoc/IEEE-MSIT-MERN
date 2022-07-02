@@ -2,6 +2,7 @@
     display: flex;
     align-items: start;
     padding-bottom: 4rem;
+    min-height: calc(100vh - 60px);
 }
 
 .addEvent__container {
@@ -17,6 +18,7 @@
 }
 
 .addEvent_heading {
+    font-size: 2.25rem;
     color: #305B96;
     font-weight: bold;
     border-bottom: 2px solid #305B96;
@@ -109,10 +111,171 @@
     border-radius: 2px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    vertical-align: middle;
 }
 
-.addEvent__button:hover {
+.addEvent__button:not([disabled]):hover {
     background-color: #305B96;
     color: #FFFFFF;
     transition: all 0.2s ease-in-out;
+}
+
+.addEvent__button:disabled {
+    background-color: hsl(0, 0%, 77%);
+    outline: 1px solid hsl(0, 0%, 77%);
+    color: hsl(0, 0%, 0%, 0.6);
+    font-weight: 700;
+    cursor: not-allowed;
+}
+
+@media screen and (max-width: 1150px) {
+    .addEvent_heading {
+        font-size: 2rem;
+    }
+
+    .event_form label {
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .addEvent_heading {
+        font-size: 1.85rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .addEvent_heading {
+        font-size: 1.75rem;
+    }
+
+    .addEvent__container {
+        margin-top: 70px;
+    }
+
+    .event_form label {
+        font-size: 1.1rem;
+    }
+
+    .event_form input:focus,
+    .event_form textarea:focus {
+        font-size: 0.95rem;
+    }
+
+    .activeTitle,
+    .activeDescription,
+    .activeDate {
+        font-size: 0.9rem !important;
+    }
+
+    .addEvent__container {
+        max-width: 87.5vw;
+    }
+
+    .event_form {
+        padding: 1.5rem 2.25rem;
+    }
+
+    .addEvent__button {
+        padding: 4px 8px;
+    }
+
+    .input_container {
+        min-height: 70px;
+    }
+    
+    .textarea_container {
+        min-height: 118px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .addEvent_heading {
+        font-size: 1.5rem;
+    }
+
+    .addEvent__container {
+        margin-top: 60px;
+    }
+
+    .event_form label {
+        font-size: 1rem;
+    }
+
+    .event_form input:focus,
+    .event_form textarea:focus {
+        border-bottom: 1.5px solid hsl(215, 52%, 39%, 0.85);
+        font-size: 0.9rem;
+    }
+
+    .activeTitle,
+    .activeDescription,
+    .activeDate {
+        font-size: 0.85rem !important;
+    }
+
+    .addEvent__container {
+        max-width: 90vw;
+    }
+
+    .event_form {
+        padding: 1rem 2rem;
+    }
+
+    .addEvent__button {
+        padding: 3px 6px;
+    }
+
+    .input_container {
+        min-height: 68px;
+    }
+    
+    .textarea_container {
+        min-height: 116px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .addEvent_heading {
+        font-size: 1.3rem;
+    }
+
+    .addEvent__container {
+        margin-top: 50px;
+    }
+
+    .event_form label {
+        font-size: 0.9rem;
+    }
+
+    .event_form input:focus,
+    .event_form textarea:focus {
+        font-size: 0.85rem;
+    }
+
+    .activeTitle,
+    .activeDescription,
+    .activeDate {
+        font-size: 0.8rem !important;
+    }
+
+    .addEvent__container {
+        max-width: 92.5vw;
+    }
+
+    .event_form {
+        padding: 0.75rem 1.5rem;
+    }
+
+    .addEvent__button {
+        padding: 2.5px 5px;
+    }
+
+    .input_container {
+        min-height: 66px;
+    }
+    
+    .textarea_container {
+        min-height: 114px;
+    }
 }
