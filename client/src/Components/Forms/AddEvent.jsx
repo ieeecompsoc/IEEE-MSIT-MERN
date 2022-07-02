@@ -8,7 +8,7 @@ const AddEvent = () => {
     const [date, setDate] = useState()
 
     function submitEvent() {
-        fetch('http://localhost:8000/events/add', {
+        fetch('https://stormy-earth-49041.herokuapp.com/events/add', {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ event_title: title, event_description: description, event_date: date, image })

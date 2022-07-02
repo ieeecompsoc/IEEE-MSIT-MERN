@@ -6,7 +6,7 @@ const Events = () => {
     const [events, setEvents] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:8000/events/get').then(res => res.json()).then(data => setEvents(data))
+        fetch('https://stormy-earth-49041.herokuapp.com/events/get').then(res => res.json()).then(data => setEvents(data))
     }, [])
 
     return (
