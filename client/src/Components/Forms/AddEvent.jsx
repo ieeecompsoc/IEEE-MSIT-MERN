@@ -1,7 +1,13 @@
 import './addEvent.css'
 import React, { useState, useEffect } from 'react';
 
+import Menubar from '../Navbar/Menubar';
+
 const AddEvent = () => {
+    const [titleRef, setTitleRef] = useState(false);
+    const [descriptionRef, setDescriptionRef] = useState(false);
+    const [dateRef, setDateRef] = useState(false);
+
     const [title, setTitle] = useState()
     const [description, setDescription] = useState()
     const [image, setImage] = useState()
@@ -66,23 +72,30 @@ const AddEvent = () => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [image])
 
-
     return (
-        <div className='addEvent__container'>
-            <form className='event_form'>
-                <label for='title'>Title</label>
-                <input name='title' type='text' placeholder='Enter event title' required={true} onChange={event => setTitle(event.target.value)} />
-
-                <label for='description'>Description</label>
-                <input name='description' type='text' placeholder='Enter event description' required={true} onChange={event => setDescription(event.target.value)} />
-                
-                <label for='date'>Description</label>
-                <input name='date' type='datetime-local' required={true} onChange={event => setDate(event.target.value)} />
-                {/* className="cloudinary-button" has defined styles */}
-                
-                <label htmlFor='image'>Image:</label>
-                <button type='button' id='image' onClick={showUploadWidget} className="addEvent__button" disabled={!title || !description || !date}>{'Upload & Submit'}</button>
-            </form>
+        <div className='addEvent'>
+            <Menubar backgroundClr="#305B98" />
+            <div className='addEvent__container'>
+                <h1 className="addEvent_heading">Add Event Form</h1>
+                <form className='event_form'>
+                    <div className="eventForm_inputContainer input_container">
+                        <label htmlFor='title' className={(titleRef) ? ("activeTitle") : ("")}>Event Title</label>
+                        <input name='title' id='title' type='text' placeholder='Enter Event Title' required={true} onChange={event => setTitle(event.target.value)} onFocus={() => (setTitleRef(true))} onBlur={() => (setTitleRef(false))} />
+                    </div>
+                    <div className="eventForm_inputContainer textarea_container">
+                        <label htmlFor='description' className={(descriptionRef) ? ("activeDescription") : ("")}>Event Description</label>
+                        <textarea name='description' id='description' type='text' placeholder='Enter Event Description' required={true} onChange={event => setDescription(event.target.value)}onFocus={() => (setDescriptionRef(true))} onBlur={() => (setDescriptionRef(false))} />
+                    </div>
+                    <div className="eventForm_inputContainer input_container">
+                        <label htmlFor='date' className={(dateRef) ? ("activeDate") : ("")}>Date & Time</label>
+                        <input name='date' id='date' type='datetime-local' required={true} onChange={event => setDate(event.target.value)} onFocus={() => (setDateRef(true))} onBlur={() => (setDateRef(false))} />
+                    </div>
+                    <div className="eventForm_inputContainer">
+                        <label htmlFor='image' style={{"color": "#305B96", "borderBlockEnd": "1px solid #305B96"}}>Event Image</label>
+                        <button type='button' id='image' onClick={showUploadWidget} className="addEvent__button" disabled={!title || !description || !date}>{'Upload & Submit'}</button>
+                    </div>
+                </form>
+            </div>
         </div>
     )
 }
