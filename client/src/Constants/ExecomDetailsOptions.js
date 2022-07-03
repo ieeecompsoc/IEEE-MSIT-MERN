@@ -10,14 +10,14 @@ const execomDetailsOptions = [
         heading_color: "#00629B"
     },
     {
-        execom_section: "ras",
-        section_heading: "IEEE RAS",
-        heading_color: "#BA0C2F"
-    },
-    {
         execom_section: "cs",
         section_heading: "IEEE CS",
         heading_color: "#FFA300"
+    },
+    {
+        execom_section: "ras",
+        section_heading: "IEEE RAS",
+        heading_color: "#BA0C2F"
     },
     {
         execom_section: "pes",
