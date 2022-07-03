@@ -42,7 +42,7 @@ fs.createReadStream('./src/Pages/ExeCom/team.csv')
   .pipe(csv())
   .on('data', (data) => results.push(data))
   .on('end', () => {
-    for(let i = 0; i < results.length - 1; i++){
+    for(let i = 0; i < results.length; i++){
       let res = results[i];
       const part = res["part"];
       const image = res["image"].substring(30);
