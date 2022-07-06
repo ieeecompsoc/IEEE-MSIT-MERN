@@ -1,4 +1,4 @@
-.heading {
+.cs_heading {
     font-family: 'Open Sans',sans-serif;
     font-weight: 700;
     font-size: 3rem;
@@ -8,7 +8,7 @@
 .cs_line {
     background-color: #FFA300;
     width: 25%;
-    height: 8px;
+    height: 7px;
     border-width: 0;
     margin-bottom: 3%;
     margin-top: 1.5%;
@@ -27,6 +27,7 @@
 .CS-img {
     width: 35%;
     margin-bottom: 6%;
+    margin-top: 5%;
 }
 
 .cs_main-content {
@@ -40,17 +41,22 @@
 
 @media (max-width: 700px) {
     .CS-img {
-        width: 80% !important;
-        margin-bottom: 3%;
-        margin-top: 6% !important;
+        width: 80%;
+        margin-top: 7%;
     }
 
     .cs_line {
         width: 50%;
+        height: 4px;
     }
 
-    .heading {
+    .cs_heading {
+        font-size: 2rem;
         text-align: center;
-        margin-bottom: 2% !important;
+        margin-bottom: 2%;
+    }
+
+    .cs_main-content {
+        font-size: 1.1rem;
     }
 }
