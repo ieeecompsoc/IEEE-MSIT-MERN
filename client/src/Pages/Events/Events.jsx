@@ -9,6 +9,9 @@ const Events = () => {
         fetch('https://stormy-earth-49041.herokuapp.com/events/get').then(res => res.json()).then(data => setEvents(data))
     }, [])
 
+
+    
+
     return (
         <div className="events__page">
             <Menubar backgroundClr="#78BE20" />
@@ -20,18 +23,19 @@ const Events = () => {
             <div className="event-container">
                 {events.map(({ _id, event_title, event_description, event_date, image }) => <div key={_id} className="event">
                     <div className="event-left">
-                        <img src={image} alt="" />
+                        <img className='event-image' src={image} alt="" />
                     </div>
 
                     <div className="event-right">
                         <h3 className="event-title">{event_title}</h3>
 
                         <div className="event-description">
-                            {event_description}
+                             <p className='event-describe'>{event_description}</p>
+
                         </div>
 
                         <div className="event-timing">
-                            <img src="" alt="" /> {new Date(event_date).toLocaleString()}
+                            <img  className='event-image' src="" alt="" /> {new Date(event_date).toLocaleString()}
                         </div>
                     </div>
                 </div>)}
