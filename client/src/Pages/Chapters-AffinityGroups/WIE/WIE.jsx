@@ -9,7 +9,7 @@ const WIE = () => {
             <Menubar backgroundClr="#971D96" />
             <div class="contents">
                 <img class="WIE-img" src={WIELogo} alt="wie-logo"/>
-                <h2 class="heading">Women in Engineering</h2>
+                <h2 class="wie_heading">Women in Engineering</h2>
                 <hr class="wie_line" />
                 <p class="wie_main-content">IEEE MSIT has had a pivotal role to play in advancing technological pursuits and social networking of MSIT. Since it's inception in 2009, it has played a forward role in providing it's members a platform to interact, collaborate and work towards a building a technically sound ecosystem. IEEE MSIT WIE, PES, MTTS, CS chapters have worked in cohesion to explore and bring forth various engineering avenues and opportunities such as hackathons, seminars, hands-on workshops, industrial visits, women empowerment seminars, technical project exhibitions, STEP programmes and a lot more.
                     <br />
