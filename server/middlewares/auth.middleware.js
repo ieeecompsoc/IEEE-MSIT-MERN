@@ -33,4 +33,13 @@ const protect = async (req, res, next) => {
   }
 };
 
-module.exports = { protect };
+// verifyType will run after protect
+const verifyType = type => async (req, res, next) => {
+  const { usertype } = req.user;
+  if (usertype === type) next()
+  else res.status(401).json({
+    message: "Not allowed for provided user type"
+  });
+}
+
+module.exports = { protect, verifyType };
