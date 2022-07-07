@@ -5,7 +5,7 @@ const generateToken = require("../config/generateToken");
 //@route           POST /api/user/
 //@access          Public
 const registerUser = async (req, res) => {
-  const { username, email, password } = req.body;
+  const { username, email, password, usertype } = req.body;
 
   if (!username || !email || !password) {
     return res.status(400).json({
@@ -26,7 +26,8 @@ const registerUser = async (req, res) => {
   const user = await User.create({
     username,
     email,
-    password
+    password,
+    usertype
   });
 
   if (user) {
