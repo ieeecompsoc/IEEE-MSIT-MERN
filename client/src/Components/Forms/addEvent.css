@@ -1,6 +1,6 @@
 .addEvent {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     padding-bottom: 4rem;
     min-height: calc(100vh - 60px);
 }

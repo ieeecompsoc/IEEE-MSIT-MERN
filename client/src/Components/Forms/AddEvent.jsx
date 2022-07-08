@@ -87,7 +87,7 @@ const AddEvent = () => {
                         <textarea name='description' id='description' type='text' placeholder='Enter Event Description' required={true} onChange={event => setDescription(event.target.value)}onFocus={() => (setDescriptionRef(true))} onBlur={() => (setDescriptionRef(false))} />
                     </div>
                     <div className="eventForm_inputContainer input_container">
-                        <label htmlFor='date' className={(dateRef) ? ("activeDate") : ("")}>Date & Time</label>
+                        <label htmlFor='date' className={(dateRef) ? ("activeDate") : ("")}>Date &amp; Time</label>
                         <input name='date' id='date' type='datetime-local' required={true} onChange={event => setDate(event.target.value)} onFocus={() => (setDateRef(true))} onBlur={() => (setDateRef(false))} />
                     </div>
                     <div className="eventForm_inputContainer">

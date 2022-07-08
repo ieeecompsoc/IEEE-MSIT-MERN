@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './ExeCom.css';
 import Menubar from '../../Components/Navbar/Menubar'
 
@@ -58,7 +58,7 @@ const RenderExecomSection = ({ list, details }) => {
                                     </div>
                                 )
                             } else {
-                                return (<></>)
+                                return (<Fragment key={index}></Fragment>)
                             }
                         })}
                     </div>
@@ -100,7 +100,7 @@ const RenderExecomSection = ({ list, details }) => {
                                     </div>
                                 )
                             } else {
-                                return (<></>)
+                                return (<Fragment key={index}></Fragment>)
                             }
                         })}
                     </div>
@@ -142,7 +142,7 @@ const RenderExecomSection = ({ list, details }) => {
                                     </div>
                                 )
                             } else {
-                                return (<></>)
+                                return (<Fragment key={index}></Fragment>)
                             }
                         })}
                     </div>
@@ -182,7 +182,7 @@ const ExeCom = () => {
                                         (index) ?
                                             (
 
-                                                <div className="execom_card advisoryBoard">
+                                                <div className="execom_card advisoryBoard" key={index}>
                                                     <div className="execom_card__image execom_card__image-advisoryBoard">
                                                         <img src={member.image} alt="" />
                                                     </div>
@@ -191,7 +191,7 @@ const ExeCom = () => {
                                                         <p className="execom_card__description-department">{member.title}</p>
                                                     </div>
                                                 </div>
-                                            ) : (<></>)
+                                            ) : (<Fragment key={index}></Fragment>)
                                     )
                                 })}
                             </div>
@@ -200,7 +200,7 @@ const ExeCom = () => {
                     <div className="app__execom-execomListContainer">
                         {Object.keys(team).map((key, index) => {
                             return (
-                                (team[key].length) ? (<RenderExecomSection list={team[key]} details={execomDetailsOptions[index]} />) : (<></>)
+                                (team[key].length) ? (<RenderExecomSection list={team[key]} details={execomDetailsOptions[index]} key={index}/>) : (<Fragment key={index}></Fragment>)
                             )
                         })}
                     </div>
