@@ -1,4 +1,3 @@
-
 .app__About {
     position: relative;
 }
@@ -12,11 +11,11 @@
     justify-content: center;
 }
 
-.app__About-mainImg > img:nth-of-type(1) {
+.app__About-mainImg>img:nth-of-type(1) {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: blur(2px);
+    filter: blur(1px);
 }
 
 .app__About-mainImg-ieeeLogo {
@@ -33,7 +32,7 @@
     justify-content: space-between;
 }
 
-.app__About-logoContainer > figure {
+.app__About-logoContainer>figure {
     width: 150px;
     height: auto;
     display: flex;
@@ -41,7 +40,7 @@
     justify-content: center;
 }
 
-.app__About-logoContainer > figure > img {
+.app__About-logoContainer>figure>img {
     object-fit: contain;
 }
 
@@ -55,6 +54,7 @@
     gap: 2.5rem;
     background-color: #C4C4C4;
 }
+
 .app__About-headerContainer {
     margin-inline: auto;
     display: flex;
@@ -96,7 +96,7 @@
         height: 70vh;
     }
 
-    .app__About-mainImg > img:nth-of-type(1) {
+    .app__About-mainImg>img:nth-of-type(1) {
         height: 100%;
     }
 
@@ -113,18 +113,18 @@
         font-size: 1rem;
         line-height: 22.5px;
     }
-    
+
     .app__About-header {
         font-size: 2rem;
     }
-    
+
     .hr-blue {
         width: 150px;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .app__About-logoContainer > figure {
+    .app__About-logoContainer>figure {
         width: 120px;
     }
 
@@ -135,7 +135,7 @@
     .app__About-header {
         font-size: 1.85rem;
     }
-    
+
     .hr-blue {
         height: 4px;
         width: 135px;
@@ -147,7 +147,7 @@
         padding-inline: 2.5rem;
     }
 
-    .app__About-logoContainer > figure {
+    .app__About-logoContainer>figure {
         width: 100px;
     }
 
@@ -173,7 +173,7 @@
     .app__About-header {
         font-size: 1.75rem;
     }
-    
+
     .hr-blue {
         height: 3.5px;
         width: 130px;
@@ -181,7 +181,7 @@
 }
 
 @media screen and (max-width: 650px) {
-    .app__About-logoContainer > figure {
+    .app__About-logoContainer>figure {
         width: 80px;
     }
 
@@ -208,7 +208,7 @@
     .app__About-header {
         font-size: 1.5rem;
     }
-    
+
     .hr-blue {
         height: 2.75px;
         width: 110px;
@@ -216,7 +216,7 @@
 }
 
 @media screen and (max-width: 450px) {
-    .app__About-logoContainer > figure {
+    .app__About-logoContainer>figure {
         width: 50px;
     }
 
@@ -231,7 +231,7 @@
     .app__About-header {
         font-size: 1.3rem;
     }
-    
+
     .hr-blue {
         height: 2.25px;
         width: 95px;

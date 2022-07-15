@@ -1,6 +1,6 @@
 // import react from 'react';
 import './RAS.css';
-import RASLogo from '../../../Assets/RASLogo.svg';
+import RASLogo from '../../../Assets/RASLogo.png';
 import Menubar from '../../../Components/Navbar/Menubar';
 
 const RAS = () => {
@@ -8,7 +8,7 @@ const RAS = () => {
         <div className="ras__chapter">
             <Menubar backgroundClr="#BA0C2F" />
             <div className="contents">
-                <img className="RAS-img" src={RASLogo} alt="ras-logo"/>
+                <img className="RAS-img" src={RASLogo} alt="ras-logo" />
                 <h2 className="ras_heading">Robotics and Automation Society</h2>
                 <hr className="ras_line" />
                 <p className="ras_main-content">IEEE MSIT has had a pivotal role to play in advancing technological pursuits and social networking of MSIT. Since it's inception in 2009, it has played a forward role in providing it's members a platform to interact, collaborate and work towards a building a technically sound ecosystem. IEEE MSIT WIE, PES, MTTS, CS chapters have worked in cohesion to explore and bring forth various engineering avenues and opportunities such as hackathons, seminars, hands-on workshops, industrial visits, women empowerment seminars, technical project exhibitions, STEP programmes and a lot more.
