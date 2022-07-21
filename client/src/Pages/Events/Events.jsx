@@ -1,13 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import './Events.css';
 import Menubar from '../../Components/Navbar/Menubar';
+import axios from 'axios';
 
 const Events = () => {
     const [events, setEvents] = useState([])
 
-    useEffect(() => {
-        fetch('https://stormy-earth-49041.herokuapp.com/events/get').then(res => res.json()).then(data => setEvents(data))
-    }, [])
+    async function fetchApp() {
+        // 'https://stormy-earth-49041.herokuapp.com/events/get'
+        try {
+            const { data } = await axios('http://localhost:8000/events/get')
+            setEvents(data)
+        } catch { }
+    }
+
+    useEffect(() => { fetchApp() }, [])
 
     return (
         <div className="events__page">
@@ -21,7 +28,7 @@ const Events = () => {
                 {events.map(({ _id, event_title, event_description, event_date, image }) =>
                     <div key={_id} className="event">
                         <div className="event-left">
-                            <img className='event-image' src={image} alt="event_image" />
+                            <img className='event-image' src={`http://localhost:8000/images/${image}`} alt="event_image" />
                         </div>
 
                         <div className="event-right">
