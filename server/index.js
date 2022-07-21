@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const compression = require('compression')
 const mongoConnect = require('./db');
 const authUser = require('./routes/auth');
 
@@ -10,6 +11,8 @@ let port = 8000;
 
 app.use(cors({ origin: '*' }))
 app.use(express.json())
+app.use(compression())
+app.use('/images', express.static('images'))
 app.use('/events', require('./routes/events'));
 app.use('/api/user', authUser);
 
