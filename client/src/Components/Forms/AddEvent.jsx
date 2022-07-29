@@ -1,7 +1,7 @@
 import './addEvent.css'
-import React, { useState, useEffect } from 'react';
-
+import React, { useState } from 'react';
 import Menubar from '../Navbar/Menubar';
+import axios from 'axios'
 
 const AddEvent = () => {
     const [titleRef, setTitleRef] = useState(false);
@@ -13,87 +13,49 @@ const AddEvent = () => {
     const [image, setImage] = useState()
     const [date, setDate] = useState()
 
-    function submitEvent() {
-        fetch('https://stormy-earth-49041.herokuapp.com/events/add', {
-            method: 'post',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ event_title: title, event_description: description, event_date: date, image })
-        }).then(res => res.json()).then(data => { if (!data.error) console.log('Successfully added the event!') })
-    }
+    async function submitEvent(event) {
+        event.preventDefault()
+        const data = new FormData();
+        data.append('event_title', title)
+        data.append('event_description', description)
+        data.append('image', image)
+        data.append('event_date', date)
 
-    function showUploadWidget() {
-        window.cloudinary.openUploadWidget({
-            cloudName: "dbl20ma8s",
-            uploadPreset: "qdlgnwlt",
-            sources: [
-                "local",
-                "camera",
-                "url",
-                "image_search"
-            ],
-            googleApiKey: "<image_search_google_api_key>",
-            showAdvancedOptions: false,
-            cropping: true,
-            multiple: false,
-            defaultSource: "local",
-            styles: {
-                palette: {
-                    window: "#FFFFFF",
-                    windowBorder: "#90A0B3",
-                    tabIcon: "#0078FF",
-                    menuIcons: "#5A616A",
-                    textDark: "#000000",
-                    textLight: "#FFFFFF",
-                    link: "#0078FF",
-                    action: "#FF620C",
-                    inactiveTabIcon: "#0E2F5A",
-                    error: "#F44235",
-                    inProgress: "#0078FF",
-                    complete: "#20B832",
-                    sourceBg: "#E4EBF1"
-                },
-                fonts: {
-                    default: null,
-                    "'Fira Sans', sans-serif": {
-                        url: "https://fonts.googleapis.com/css?family=Fira+Sans",
-                        active: true
-                    }
+        try {
+            await axios({
+                url: 'http://localhost:8000/events/add', method: 'post', data,
+                headers: {
+                    'Content-Type': 'multipart/form-data',
+                    authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzZiMDEwMGVhMGI3MWY3YzBiOWZjNSIsImlhdCI6MTY1ODQwMzk0MiwiZXhwIjoxNjYwOTk1OTQyfQ.Cw0cgG5zVmDg2t_97nqXArlfLZjaLo9whgZaL2YAfCk'
                 }
-            }
-        }, (err, result) => {
-            if (!err && result?.event === 'success') {
-                setImage(result.info.secure_url)
-            }
-        });
+            })
+            console.log('Successfully added the event!')
+        } catch { }
     }
-
-    useEffect(() => {
-        if (image) submitEvent()
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [image])
 
     return (
         <div className='addEvent'>
             <Menubar backgroundClr="#305B98" />
             <div className='addEvent__container'>
                 <h1 className="addEvent_heading">Add Event Form</h1>
-                <form className='event_form'>
+                <form className='event_form' onSubmit={submitEvent}>
                     <div className="eventForm_inputContainer input_container">
                         <label htmlFor='title' className={(titleRef) ? ("activeTitle") : ("")}>Event Title</label>
                         <input name='title' id='title' type='text' placeholder='Enter Event Title' required={true} onChange={event => setTitle(event.target.value)} onFocus={() => (setTitleRef(true))} onBlur={() => (setTitleRef(false))} />
                     </div>
                     <div className="eventForm_inputContainer textarea_container">
                         <label htmlFor='description' className={(descriptionRef) ? ("activeDescription") : ("")}>Event Description</label>
-                        <textarea name='description' id='description' type='text' placeholder='Enter Event Description' required={true} onChange={event => setDescription(event.target.value)}onFocus={() => (setDescriptionRef(true))} onBlur={() => (setDescriptionRef(false))} />
+                        <textarea name='description' id='description' type='text' placeholder='Enter Event Description' required={true} onChange={event => setDescription(event.target.value)} onFocus={() => (setDescriptionRef(true))} onBlur={() => (setDescriptionRef(false))} />
                     </div>
                     <div className="eventForm_inputContainer input_container">
                         <label htmlFor='date' className={(dateRef) ? ("activeDate") : ("")}>Date &amp; Time</label>
                         <input name='date' id='date' type='datetime-local' required={true} onChange={event => setDate(event.target.value)} onFocus={() => (setDateRef(true))} onBlur={() => (setDateRef(false))} />
                     </div>
                     <div className="eventForm_inputContainer">
-                        <label htmlFor='image' style={{"color": "#305B96", "borderBlockEnd": "1px solid #305B96"}}>Event Image</label>
-                        <button type='button' id='image' onClick={showUploadWidget} className="addEvent__button" disabled={!title || !description || !date}>{'Upload & Submit'}</button>
+                        <label htmlFor='image' style={{ "color": "#305B96", "borderBlockEnd": "1px solid #305B96" }}>Event Image</label>
+                        <input type='file' required={true} accept='image/*' onChange={event => setImage(event.target.files[0])} />
                     </div>
+                    <button type='submit'>Submit</button>
                 </form>
             </div>
         </div>
