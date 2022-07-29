@@ -1,17 +1,19 @@
 const express = require('express');
 const router = express.Router();
+const multer = require('multer');
 const Event = require('../models/Event');
 const { protect, verifyType } = require('../middlewares/auth.middleware');
+const upload = multer({ dest: "images" })
 
-router.get('/get', async (req, res) => {
+router.get('/get', async (_req, res) => {
     const events = await Event.find()
     res.json(events)
 })
 
-router.post('/add', protect, verifyType('event-manager'), async (req, res) => {
+router.post('/add', protect, verifyType('event-manager'), upload.single('image'), async (req, res) => {
     try {
-        const { event_title, event_description, image, event_date } = req.body
-        const event = await Event.create({ event_title, event_description, image, event_date })
+        const { body: { event_title, event_description, event_date }, file: { filename } } = req
+        const event = await Event.create({ event_title, event_description, image: filename, event_date })
         res.json(event)
     } catch (err) {
         console.log(err);
