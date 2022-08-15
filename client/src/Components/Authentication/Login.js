@@ -3,7 +3,7 @@ import Menubar from '../Navbar/Menubar';
 
 import './Login.css';
 
-const Login = () => {
+const Login = async () => {
     const [emailRef, setEmailRef] = useState(false);
     const [passwordRef, setPasswordRef] = useState(false);
 
@@ -11,14 +11,15 @@ const Login = () => {
     const [password, setPassword] = useState('')
 
     const submitHandler = () => {
-        fetch('https://stormy-earth-49041.herokuapp.com/login', {
+        const responseData = fetch('https://stormy-earth-49041.herokuapp.com/api/user/login', {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 email: email,
                 password: password
-            }).then(res => res.json()).then(data => { if (!data.error) console.log('Login Successful') })
-        })
+            })
+        });
+        console.log(responseData);
     }
 
     return (

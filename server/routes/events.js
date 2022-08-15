@@ -11,7 +11,8 @@ router.get('/get', async (_req, res) => {
     res.json(events)
 })
 
-router.post('/add', protect, verifyType('event-manager'), upload.single('image'), async (req, res) => {
+router.post('/add', upload.single('image'), async (req, res) => {
+    // router.post('/add', protect, verifyType('event-manager'), upload.single('image'), async (req, res) => {
     try {
         const { body: { event_title, event_description, event_date }, file: { filename } } = req
         const event = await Event.create({ event_title, event_description, image: filename, event_date })
@@ -22,7 +23,8 @@ router.post('/add', protect, verifyType('event-manager'), upload.single('image')
     }
 })
 
-router.put('/update/:id', protect, verifyType('event-manager'), async (req, res) => {
+router.put('/update/:id', async (req, res) => {
+    // router.put('/update/:id', protect, verifyType('event-manager'), async (req, res) => {
     try {
         const { event_title, event_description, image, event_date } = req.body
         const event = await Event.findById(req.params.id)
@@ -34,7 +36,8 @@ router.put('/update/:id', protect, verifyType('event-manager'), async (req, res)
     }
 })
 
-router.delete('/delete/:id', protect, verifyType('event-manager'), async (req, res) => {
+router.delete('/delete/:id', async (req, res) => {
+    // router.delete('/delete/:id', protect, verifyType('event-manager'), async (req, res) => {
     try {
         const event = await Event.findById(req.params.id)
         if (!event) return res.status(404).json({ error: "Event not found!" })
