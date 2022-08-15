@@ -1,16 +1,16 @@
-import logoMainWhite from '../Assets/ieeeLogo.svg';
-import logoMainBlue from '../Assets/ieeeLogo-blue.svg';
-import ieeeMainImg from '../Assets/IEEEMainPhoto.svg';
-import cs from '../Assets/computerSocietyLogo.svg';
-import wie from '../Assets/WIELogo.svg';
-import pes from '../Assets/PESLogo.svg';
-import ras from '../Assets/RASLogo.svg';
+import logoMainWhite from '../Assets/ieeeLogo.png';
+import logoMainBlue from '../Assets/ieeeLogo-blue.png';
+import ieeeMainImg from '../Assets/IEEEMainPhoto.png';
+import cs from '../Assets/computerSocietyLogo.png';
+import wie from '../Assets/WIELogo.png';
+import pes from '../Assets/PESLogo.png';
+import ras from '../Assets/RASLogo.png';
 import anupamaKaushik from '../Assets/anupamaKaushik.jpg';
 import jyotiJain from '../Assets/jyotiJain.jpg';
 import poojaKherwa from '../Assets/poojaKherwa.jpeg';
 import anshulPareek from '../Assets/anshulPareek.jpeg';
 
-export default {
+const Images = {
     logoMainWhite,
     logoMainBlue,
     ieeeMainImg,
@@ -23,3 +23,5 @@ export default {
     poojaKherwa,
     anshulPareek
 }
+
+export default Images;

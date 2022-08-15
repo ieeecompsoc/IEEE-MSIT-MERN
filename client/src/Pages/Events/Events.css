@@ -1,6 +1,5 @@
 /* <-------------sections -------------> */
 
-
 .section {
     background-color: #78BE20;
     min-height: 3.5rem;
@@ -35,38 +34,23 @@
 
 .event-container {
     font-family: "Roboto", sans-serif;
-    max-width: 800px;
-    margin: 0 auto;
-
+    max-width: 90%;
+    margin: 1rem auto;
 }
-/* 
-.event-container h3.year {
-    font-size: 40px;
-    text-align: center;
-    border-bottom: 1px solid #b1b1b1;
-} */
 
-.event-container .event {
+.event {
+    display: grid;
+    grid-template-columns: 35% 65%;
     box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
-    display: flex;
     border-radius: 8px 0px 8px 0px;
-    margin: 32px 0 ;
-    list-style-type: none;
-
+    margin: 32px 0;
 }
 
-
-.event .event-left {
-    background: #222;
-    min-width: 255px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #eee;
-    padding: 8px 48px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 8px 0 0 8px;
+.event-image {
+    width: 100%;
+    max-height: 200px;
+    height: 100%;
+    border-radius: 0.5rem;
 }
 
 .event .event-left .date {
@@ -79,37 +63,35 @@
 }
 
 .event .event-right {
-    display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    justify-content: center;
-    padding: 0 24px;
+    padding: 24px;
 }
 
 .event .event-right h3.event-title {
     font-size: 24px;
-    margin: 24px 0 10px 0;
     color: #218bbb;
     text-transform: uppercase;
 }
 
 .event .event-right .event-timing {
     background: #fff8ba;
-    display: flex;
     align-items: center;
     justify-content: center;
-    width: 100px;
     padding: 8px;
     border-radius: 16px;
-    margin: 24px 0;
-    font-size: 14px;
+    margin: 14px 0;
+    font-size: 10px;
+    justify-content: flex-end;
 }
 
-.event .event-right .event-timing img {
-    height: 20px;
-    padding-right: 8px;
+.event .event-right .event-description {
+    font-size: 12px;
+    margin: 10px 0 20px 0;
+    text-align: justify;
 }
 
-@media (max-width : 768px) {
+@media (max-width : 470px) {
     .headingHr {
         max-width: 8rem;
         margin-top: 0.2rem;
@@ -121,14 +103,9 @@
     .heading2 {
         font-size: 1.4rem;
     }
-    .event-container .event {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        display: list-item;
-    }
-    .event .event-left{
-        min-height: 250px;
-    }
 
-
+    .event {
+        display: grid;
+        grid-template-columns: none;
+    }
 }

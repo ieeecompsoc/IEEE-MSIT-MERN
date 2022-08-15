@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import './Footer.css'
 
 import { FooterLinks } from '../../Constants/NavLinks'
@@ -9,14 +9,14 @@ const Footer = () => {
             <ul>
                 {(FooterLinks).map((links, index) => {
                     return (
-                        <>
+                        <Fragment  key={index}>
                             {(index !== 0) && (
                                 <div className="app__navbar-ieeeLinks-verticalDiv"></div>
                             )}
                             <li key={index}>
                                 <a href={links.url} target="_blank" rel='noreferrer'>{links.display}</a>
                             </li>
-                        </>
+                        </Fragment>
                     )
                 })}
                 <div className="app__navbar-ieeeLinks-verticalDiv"></div>

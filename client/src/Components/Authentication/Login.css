@@ -1,0 +1,251 @@
+.login {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 4rem;
+    min-height: calc(100vh - 60px);
+}
+
+.login__container {
+    width: 100%;
+    max-width: 750px;
+    margin-inline: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.login_heading {
+    font-size: 2.25rem;
+    color: #305B96;
+    font-weight: bold;
+    border-bottom: 2px solid #305B96;
+}
+
+.login_form {
+    width: 100%;
+    padding: 1.5rem 3rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: hsl(0, 0%, 77%, 0.175);
+    border-radius: 5px;
+}
+
+.loginForm_inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.8rem;
+}
+
+.input_container {
+    min-height: 75px;
+}
+
+.login_form label {
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: max-content;
+    border-bottom: 1.5px solid #000000;
+    transition: all 0.2s ease-in-out;
+}
+
+.login_form input {
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid hsl(0, 0%, 37%, 0.5);
+    height: 2rem;
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.login_form input:focus {
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid hsl(215, 52%, 39%, 0.85);
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.activeEmail,
+.activePassword {
+    color: #305B96 !important;
+    font-size: 1rem !important;
+    border-bottom: 1px solid #305B96 !important;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700 !important;
+}
+
+.loginForm_inputContainer:last-of-type {
+    gap: 10px;
+    min-height: max-content;
+}
+
+.login__button {
+    width: max-content;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    outline: 1px solid #305B96;
+    color: #305B96;
+    font-weight: 700;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    vertical-align: middle;
+}
+
+.login__button:not([disabled]):hover {
+    background-color: #305B96;
+    color: #FFFFFF;
+    transition: all 0.2s ease-in-out;
+}
+
+.login__button:disabled {
+    background-color: hsl(0, 0%, 77%);
+    outline: 1px solid hsl(0, 0%, 77%);
+    color: hsl(0, 0%, 0%, 0.6);
+    font-weight: 700;
+    cursor: not-allowed;
+}
+
+@media screen and (max-width: 1150px) {
+    .login_heading {
+        font-size: 2rem;
+    }
+
+    .login_form label {
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .login_heading {
+        font-size: 1.85rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .login_heading {
+        font-size: 1.75rem;
+    }
+
+    .login__container {
+        margin-top: 70px;
+    }
+
+    .login_form label {
+        font-size: 1.1rem;
+    }
+
+    .login_form input:focus {
+        font-size: 0.95rem;
+    }
+
+    .activeEmail,
+    .activePassword {
+        font-size: 0.9rem !important;
+    }
+
+    .login__container {
+        max-width: 87.5vw;
+    }
+
+    .login_form {
+        padding: 1.5rem 2.25rem;
+    }
+
+    .login__button {
+        padding: 4px 8px;
+    }
+
+    .input_container {
+        min-height: 70px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .login_heading {
+        font-size: 1.5rem;
+    }
+
+    .login__container {
+        margin-top: 60px;
+    }
+
+    .login_form label {
+        font-size: 1rem;
+    }
+
+    .login_form input:focus {
+        border-bottom: 1.5px solid hsl(215, 52%, 39%, 0.85);
+        font-size: 0.9rem;
+    }
+
+    .activeEmail,
+    .activePassword {
+        font-size: 0.85rem !important;
+    }
+
+    .login__container {
+        max-width: 90vw;
+    }
+
+    .login_form {
+        padding: 1rem 2rem;
+    }
+
+    .login__button {
+        padding: 3px 6px;
+    }
+
+    .input_container {
+        min-height: 68px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login_heading {
+        font-size: 1.3rem;
+    }
+
+    .login__container {
+        margin-top: 50px;
+    }
+
+    .login_form label {
+        font-size: 0.9rem;
+    }
+
+    .login_form input:focus {
+        font-size: 0.85rem;
+    }
+
+    .activeEmail,
+    .activePassword {
+        font-size: 0.8rem !important;
+    }
+
+    .login__container {
+        max-width: 92.5vw;
+    }
+
+    .login_form {
+        padding: 0.75rem 1.5rem;
+    }
+
+    .login__button {
+        padding: 2.5px 5px;
+    }
+
+    .input_container {
+        min-height: 66px;
+    }
+}

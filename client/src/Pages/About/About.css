@@ -1,119 +1,244 @@
-/* <-------------abouts -------------> */
-
-.container {
-    background-color: #D9D8D4;
-    align-items: center;
-    
-    margin-bottom: -1rem;
-    align-items: center;
+.app__About {
+    position: relative;
 }
 
-#head {
-    text-align: center;
-    font-size: 2rem;
-}
-
-.hrule {
-    height: 5px;
-    background-color: #00629B;
-    width: 180px;
-  
-    margin-left: 43%;
-  /*  margin-left: 39%;*/
-  
-    
-    
-}
-
-.text-cont {
-    padding-top: 1rem;
-    padding: 2.5rem 8rem;
-    padding-bottom: 4rem;
-    font-size: 1.1rem;
-    line-height: 33px;
-}
-
-.container {
-    padding: 2rem;
-}
-
-/* <-------------FOOTER -------------> */
-
-@media (max-width : 768px) {
-    .container{
-        padding: 0.1rem 1rem;
-        padding-bottom: 2rem;
-        padding-top: 2rem;
-        gap: 1.5rem;
-    }
-    .message {
-        font-size: 0.8rem; 
-        line-height: 22px;
-        gap: 1.5rem;
-    }
-    footer>p {
-        margin-left: 0%;
-    }
-
-    .text-cont {
-        padding: 2rem;
-        padding-top: 1rem;
-        gap: 1.5rem;
-    }
-
-    #head {
-        font-size: 1.5rem;
-        padding-left: 1rem;
-    }
-
-    .imageContainer{
-        max-width: 100%;
-    }
-
-    .mainImg {
-
-        max-height: 45vh;
-    }
-
-    .ieeeLogoWhite {
-        max-width: 220px;
-
-    }
-
-    .hrule {
-       
-        margin-left: auto;
-        margin-right: auto; 
-
-      /*  margin-left: 20%;
-        padding-left: 1rem;*/
-      /*  margin-left: 25%;
-        padding-left: 1rem; */
-        width: 130px;
-    }
-    
-}
-
-
-/* ---------- CSS for Image ---------- */
-
-.imageContainer {
+.app__About-mainImg {
     width: 100%;
+    height: calc(100vh - 50px);
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.mainImg {
-    max-width: 100%;
-    height: calc(100vh - 50px);
+.app__About-mainImg>img:nth-of-type(1) {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    filter: blur(2px);
+    filter: blur(1px);
 }
 
-.ieeeLogoWhite {
+.app__About-mainImg-ieeeLogo {
+    width: 500px;
     position: absolute;
-    width: 450px;
-    object-fit: cover;
+}
+
+.app__About-logoContainer {
+    padding: 10px;
+    padding-inline: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app__About-logoContainer>figure {
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__About-logoContainer>figure>img {
+    object-fit: contain;
+}
+
+.app__About-messageContainer {
+    height: 100%;
+    width: 100%;
+    padding: 2.5rem 8rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    background-color: #C4C4C4;
+}
+
+.app__About-headerContainer {
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: max-content;
+    gap: 5px;
+}
+
+.app__About-messageWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.app__About-header {
+    font-size: 2.25rem;
+}
+
+.app__About-messageContainer-message {
+    font-size: 1.1rem;
+    line-height: 25px;
+    color: black;
+}
+
+.hr-blue {
+    height: 5px;
+    width: 180px;
+    background-color: #00629B;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__About-logoContainer {
+        padding-inline: 5rem;
+    }
+
+    .app__About-mainImg {
+        height: 70vh;
+    }
+
+    .app__About-mainImg>img:nth-of-type(1) {
+        height: 100%;
+    }
+
+    .app__About-mainImg-ieeeLogo {
+        width: 400px;
+    }
+
+    .app__About-messageContainer {
+        padding: 2rem 5rem;
+        padding-bottom: 3rem;
+    }
+
+    .app__About-messageContainer-message {
+        font-size: 1rem;
+        line-height: 22.5px;
+    }
+
+    .app__About-header {
+        font-size: 2rem;
+    }
+
+    .hr-blue {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .app__About-logoContainer>figure {
+        width: 120px;
+    }
+
+    .app__About-messageContainer {
+        gap: 2rem;
+    }
+
+    .app__About-header {
+        font-size: 1.85rem;
+    }
+
+    .hr-blue {
+        height: 4px;
+        width: 135px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app__About-logoContainer {
+        padding-inline: 2.5rem;
+    }
+
+    .app__About-logoContainer>figure {
+        width: 100px;
+    }
+
+    .app__About-mainImg {
+        height: 60vh;
+    }
+
+    .app__About-mainImg-ieeeLogo {
+        width: 350px;
+    }
+
+    .app__About-messageContainer {
+        padding: 1rem 2.5rem;
+        padding-bottom: 3rem;
+        gap: 1.7rem;
+    }
+
+    .app__About-messageContainer-message {
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+
+    .app__About-header {
+        font-size: 1.75rem;
+    }
+
+    .hr-blue {
+        height: 3.5px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__About-logoContainer>figure {
+        width: 80px;
+    }
+
+    .app__About-logoContainer {
+        padding-inline: 1rem;
+    }
+
+    .app__About-mainImg {
+        height: 45vh;
+    }
+
+    .app__About-mainImg-ieeeLogo {
+        width: 250px;
+    }
+
+    .app__About-messageContainer {
+        gap: 1.5rem;
+    }
+
+    .app__About-messageContainer-message {
+        font-size: 0.85rem;
+    }
+
+    .app__About-header {
+        font-size: 1.5rem;
+    }
+
+    .hr-blue {
+        height: 2.75px;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__About-logoContainer>figure {
+        width: 50px;
+    }
+
+    .app__About-mainImg {
+        height: 30vh;
+    }
+
+    .app__About-mainImg-ieeeLogo {
+        width: 200px;
+    }
+
+    .app__About-header {
+        font-size: 1.3rem;
+    }
+
+    .hr-blue {
+        height: 2.25px;
+        width: 95px;
+    }
+
+    .app__About-messageContainer-message {
+        font-size: 0.75rem;
+        line-height: 18.5px;
+    }
 }

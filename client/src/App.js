@@ -19,26 +19,28 @@ import AddExecom from './Components/Forms/AddExecom';
 
 const App = () => {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path='/about' element={<About />} />
-        <Route path='/events' element={<Events />} />
-        {/* <Route path='/blogs' element={<Blogs />} />  */}
-        <Route path='/execom' element={<ExeCom />} />
-        <Route path='/' element={<Home />} excat />
-        {/* <Route path='/chapters' /> */}
-        <Route path='chapters/ras' element={<RAS />} />
-        <Route path='chapters/pes' element={<PES />} />
-        <Route path='chapters/cs' element={<CS />} />
-        <Route path='/affinityGroup/wie' element={<WIE />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/signup' element={<SignUp />} />
-        <Route path='/events/add' element={<AddEvent />} />
-        <Route path='/execom/add' element={<AddExecom />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <div className="app">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/about' element={<About />} />
+          <Route path='/events' element={<Events />} />
+          {/* <Route path='/blogs' element={<Blogs />} />  */}
+          <Route path='/execom' element={<ExeCom />} />
+          <Route path='/' element={<Home />} excat />
+          {/* <Route path='/chapters' /> */}
+          <Route path='chapters/ras' element={<RAS />} />
+          <Route path='chapters/pes' element={<PES />} />
+          <Route path='chapters/cs' element={<CS />} />
+          <Route path='/affinityGroup/wie' element={<WIE />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<SignUp />} />
+          <Route path='/events/add' element={<AddEvent />} />
+          <Route path='/execom/add' element={<AddExecom />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
   )
 }
 
