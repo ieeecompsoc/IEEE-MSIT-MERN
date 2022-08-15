@@ -1,48 +1,80 @@
 const User = require("../models/User");
-const generateToken = require("../config/generateToken");
+const jwt = require("jsonwebtoken");
+const bcrypt = require('bcryptjs');
 
 //@description     Register new user
-//@route           POST /api/user/
+//@route           POST /api/user/signup
 //@access          Public
 const registerUser = async (req, res) => {
-  const { username, email, password, usertype } = req.body;
+  const { username, email, password } = req.body;
 
   if (!username || !email || !password) {
     return res.status(400).json({
-        message: "Please enter all the feilds"
+      message: "Please enter all the feilds"
     });
     // throw new Error("Please Enter all the Feilds");
   }
 
-  const userExists = await User.findOne({ email });
+  let userExists;
+  try {
+    userExists = await User.findOne({ email: email });
+  } catch (error) {
+    return res.status(500).json({
+      message: "signing up failed please try again later"
+    })
+  }
 
   if (userExists) {
-    return res.status(400).json({
-        message: "user already exists"
+    return res.status(422).json({
+      message: "user already exists"
     })
     // throw new Error("User already exists");
+  }
+
+  let hashedPassword;
+  try {
+    hashedPassword = await bcrypt.hash(password, 12);
+  } catch (err) {
+    return res.status(500).json(
+      'Could not create user, please try again.'
+    );
   }
 
   const user = await User.create({
     username,
     email,
-    password,
-    usertype
+    password: hashedPassword,
   });
 
-  if (user) {
-    res.status(201).json({
-      _id: user._id,
-      username: user.username,
-      email: user.email,
-      token: generateToken(user._id),
-    });
-  } else {
-    return res.status(400).json({
-        message: "User not found"
-    });
-    // throw new Error("User not found");
+  try {
+    await user.save();
+  } catch (error) {
+    return res.status(500).json(
+      'Could not create user, please try again.'
+    );
   }
+
+  let token;
+  try {
+    token = jwt.sign(
+      { id: user._id },
+      process.env.JWT_SECRET,
+      {
+        expiresIn: "1d",
+      }
+    );
+  } catch (error) {
+    return res.status(500).json(
+      'Could not create user, please try again.'
+    );
+  }
+
+  res.status(201).json({
+    _id: user._id,
+    username: user.username,
+    email: user.email,
+    token: token,
+  });
 };
 
 //@description     Auth the user
@@ -51,21 +83,49 @@ const registerUser = async (req, res) => {
 const authUser = async (req, res) => {
   const { email, password } = req.body;
 
-  const user = await User.findOne({ email });
-
-  if (user && (await user.matchPassword(password))) {
-    res.json({
-      _id: user._id,
-      username: user.username,
-      email: user.email,
-      token: generateToken(user._id),
-    });
-  } else {
-    return res.status(401).json({
-        message: "Invalid Email or password"
-    });
-    // throw new Error("Invalid Email or Password");
+  let user
+  try {
+    user = await User.findOne({ email });
+  } catch (error) {
+    return res.status(500).json('Logging in failed, please try again later.');
   }
+
+  if (!user) {
+    return res.status(403).json('Invalid username or password');
+  }
+
+  let isValidPassword;
+
+  try {
+    isValidPassword = await bcrypt.compare(password, user.password);
+  } catch (error) {
+    return res.status(500).json('Could not log you in.');
+  }
+
+  if (!isValidPassword) {
+    return res.status(403).json('Invalid username or password');
+  }
+
+  let token;
+  try {
+    token = jwt.sign(
+      { id: user._id },
+      process.env.JWT_SECRET,
+      {
+        expiresIn: "1d",
+      }
+    );
+  } catch (error) {
+    return res.status(500).json(
+      'log in failed, please try again.'
+    );
+  }
+
+  res.json({
+    _id: user._id,
+    email: user.email,
+    token: token,
+  });
 };
 
 module.exports = { registerUser, authUser };

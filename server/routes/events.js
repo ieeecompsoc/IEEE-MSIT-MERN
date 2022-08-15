@@ -5,6 +5,7 @@ const Event = require('../models/Event');
 const { protect, verifyType } = require('../middlewares/auth.middleware');
 const upload = multer({ dest: "images" })
 
+// @url/events/
 router.get('/get', async (_req, res) => {
     const events = await Event.find()
     res.json(events)
