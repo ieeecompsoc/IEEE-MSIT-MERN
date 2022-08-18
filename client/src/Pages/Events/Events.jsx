@@ -7,9 +7,8 @@ const Events = () => {
     const [events, setEvents] = useState([])
 
     async function fetchApp() {
-        // 'https://stormy-earth-49041.herokuapp.com/events/get'
         try {
-            const { data } = await axios('http://localhost:8000/events/get')
+            const { data } = await axios(process.env.REACT_APP_BACKEND_BASE_URL + '/events/get')
             setEvents(data)
         } catch { }
     }

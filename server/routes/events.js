@@ -1,9 +1,18 @@
 const express = require('express');
 const router = express.Router();
 const multer = require('multer');
+
 const Event = require('../models/Event');
 const { protect, verifyType } = require('../middlewares/auth.middleware');
-const upload = multer({ dest: "images" })
+
+const upload = multer({
+    storage: multer.diskStorage({
+        destination: 'images',
+        filename: (req, file, cb) => {
+            cb(null, file.originalname);
+        }
+    })
+})
 
 // @url/events/
 router.get('/get', async (_req, res) => {
@@ -14,8 +23,8 @@ router.get('/get', async (_req, res) => {
 router.post('/add', upload.single('image'), async (req, res) => {
     // router.post('/add', protect, verifyType('event-manager'), upload.single('image'), async (req, res) => {
     try {
-        const { body: { event_title, event_description, event_date }, file: { filename } } = req
-        const event = await Event.create({ event_title, event_description, image: filename, event_date })
+        const { body: { event_title, event_description, event_date } } = req
+        const event = await Event.create({ event_title, event_description, image: req.file.originalname, event_date })
         res.json(event)
     } catch (err) {
         console.log(err);

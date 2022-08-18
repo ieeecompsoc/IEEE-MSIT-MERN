@@ -4,12 +4,9 @@
     padding: 10px;
     padding-inline: 0;
     color: #FFFFFF;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
-.app__footer > ul {
+.app__footer>ul {
     width: 100%;
     margin: 0;
     margin-inline: auto;
@@ -22,7 +19,7 @@
     row-gap: 5px;
 }
 
-.app__footer > ul > li {
+.app__footer>ul>li {
     font-size: 1rem;
 }
 
@@ -33,11 +30,11 @@
 }
 
 @media screen and (max-width: 900px) {
-    .app__footer > ul {
+    .app__footer>ul {
         column-gap: 0.5rem;
     }
 
-    .app__footer > ul > li {
+    .app__footer>ul>li {
         font-size: 0.75rem;
     }
 
@@ -47,13 +44,13 @@
 }
 
 @media screen and (max-width: 650px) {
-    .app__footer > ul {
+    .app__footer>ul {
         column-gap: 0.35rem;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .app__footer > ul > li {
+    .app__footer>ul>li {
         font-size: 0.6rem;
     }
 
