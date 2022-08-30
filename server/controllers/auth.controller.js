@@ -59,9 +59,6 @@ const registerUser = async (req, res) => {
     token = jwt.sign(
       { id: user._id },
       process.env.JWT_SECRET,
-      {
-        expiresIn: "1d",
-      }
     );
   } catch (error) {
     return res.status(500).json(
@@ -111,9 +108,6 @@ const authUser = async (req, res) => {
     token = jwt.sign(
       { id: user._id },
       process.env.JWT_SECRET,
-      {
-        expiresIn: "1d",
-      }
     );
   } catch (error) {
     return res.status(500).json(

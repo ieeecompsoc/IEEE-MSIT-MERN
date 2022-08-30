@@ -26,10 +26,14 @@ const AddEvent = () => {
                 url: 'http://localhost:8000/events/add', method: 'post', data,
                 headers: {
                     'Content-Type': 'multipart/form-data',
-                    authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzZiMDEwMGVhMGI3MWY3YzBiOWZjNSIsImlhdCI6MTY1ODQwMzk0MiwiZXhwIjoxNjYwOTk1OTQyfQ.Cw0cgG5zVmDg2t_97nqXArlfLZjaLo9whgZaL2YAfCk'
+                    authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMGRkMDRiOWM1MWViMGJhYjAwYTNjNiIsImlhdCI6MTY2MTg0OTY3NX0.IG0sj2ffgzIIZbHIHcwF1Apyibnk10qVOx5CyKYXhPA'
                 }
             })
-            console.log('Successfully added the event!')
+            alert('Successfully added the event!');
+            setTitle('');
+            setDescription('');
+            setImage(null);
+            setDate(null);
         } catch { }
     }
 

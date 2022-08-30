@@ -17,7 +17,7 @@ const userSchema = Schema({
   },
   usertype: {
     type: String,
-    default: 'client'
+    default: 'event-manager'
   }
 })
 

@@ -11,7 +11,7 @@ const Login = async () => {
     const [password, setPassword] = useState('')
 
     const submitHandler = () => {
-        const responseData = fetch('https://stormy-earth-49041.herokuapp.com/api/user/login', {
+        const responseData = fetch('https://localhost:8000/api/user/login', {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
