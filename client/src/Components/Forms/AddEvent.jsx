@@ -23,7 +23,7 @@ const AddEvent = () => {
 
         try {
             await axios({
-                url: 'http://localhost:8000/events/add', method: 'post', data,
+                url: `${process.env.REACT_APP_BACKEND_BASE_URL}/events/add`, method: 'post', data,
                 headers: {
                     'Content-Type': 'multipart/form-data',
                     authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMGRkMDRiOWM1MWViMGJhYjAwYTNjNiIsImlhdCI6MTY2MTg0OTY3NX0.IG0sj2ffgzIIZbHIHcwF1Apyibnk10qVOx5CyKYXhPA'

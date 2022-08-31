@@ -19,7 +19,11 @@ const RenderExecomSection = ({ list, details }) => {
 
     return (
         <div className='execom_card__main'>
-            <h2 style={{ "color": heading_color, "borderBottom": `2px solid ${heading_color}` }} className="app__execom-header">{section_heading}</h2>
+            <h2 style={{ "color": heading_color, "borderBottom": `2px solid ${heading_color}` }} className="app__execom-header">
+                {details.link ? <a href={details.link}>
+                    {section_heading}
+                </a> : section_heading}
+            </h2>
             <div className='execom_card__listContainer'>
                 {(minRank <= maxRank) && (
                     <div className="execom_card__wrapper">
@@ -200,7 +204,7 @@ const ExeCom = () => {
                     <div className="app__execom-execomListContainer">
                         {Object.keys(team).map((key, index) => {
                             return (
-                                (team[key].length) ? (<RenderExecomSection list={team[key]} details={execomDetailsOptions[index]} key={index}/>) : (<Fragment key={index}></Fragment>)
+                                (team[key].length) ? (<RenderExecomSection list={team[key]} details={execomDetailsOptions[index]} key={index} />) : (<Fragment key={index}></Fragment>)
                             )
                         })}
                     </div>

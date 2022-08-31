@@ -85,6 +85,21 @@
     height: 5px;
     width: 180px;
     background-color: #00629B;
+    margin: auto;
+}
+
+.contact__container {
+    display: flex;
+    gap: 2%;
+    justify-content: flex-start;
+}
+
+.contact-heading {
+    padding-bottom: 1rem;
+}
+
+.contact-address {
+    padding-block: 1rem;
 }
 
 @media screen and (max-width: 1150px) {
@@ -177,6 +192,10 @@
     .hr-blue {
         height: 3.5px;
         width: 130px;
+    }
+
+    .contact__container {
+        flex-direction: column-reverse;
     }
 }
 

@@ -36,6 +36,20 @@ const About = () => {
                         <p className="app__About-messageContainer-message">
                             With it's wide reach, IEEE MSIT serves as an ideal platform for the students to network, co-learn and develop.
                         </p>
+                        <br />
+                        <div className='contact__container'>
+                            <iframe frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.293356837104!2d77.09041795012958!3d28.620968691269987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM3JzE1LjUiTiA3N8KwMDUnMzMuNCJF!5e0!3m2!1sen!2sin!4v1453149363403" width="600"></iframe>
+                            <div className="contact-info">
+                                <h2 className='contact-heading'>Contact Us</h2>
+                                <p className='contact-phone'>
+                                    <strong>Phone: </strong>
+                                    +91 97113 83658, +91 95401 23048</p>
+                                <p className='contact-address'>
+                                    <strong>Address: </strong>
+                                    C-4 Janak Puri, New Delhi, Delhi 110058, India
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -16,6 +16,7 @@ import Login from './Components/Authentication/Login';
 import SignUp from './Components/Authentication/SignUp';
 import AddEvent from './Components/Forms/AddEvent';
 import AddExecom from './Components/Forms/AddExecom';
+import Gallery from './Pages/Gallery/Gallery';
 
 const App = () => {
   return (
@@ -23,11 +24,12 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
+          <Route path='/' element={<Home />} exact />
           <Route path='/about' element={<About />} />
-          <Route path='/events' element={<Events />} />
+          <Route path='/gallery' element={<Gallery />} />
+          {/* <Route path='/events' element={<Events />} /> */}
           {/* <Route path='/blogs' element={<Blogs />} />  */}
           <Route path='/execom' element={<ExeCom />} />
-          <Route path='/' element={<Home />} excat />
           {/* <Route path='/chapters' /> */}
           <Route path='chapters/ras' element={<RAS />} />
           <Route path='chapters/pes' element={<PES />} />

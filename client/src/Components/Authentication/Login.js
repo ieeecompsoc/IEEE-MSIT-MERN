@@ -11,7 +11,7 @@ const Login = async () => {
     const [password, setPassword] = useState('')
 
     const submitHandler = () => {
-        const responseData = fetch('https://localhost:8000/api/user/login', {
+        const responseData = fetch(`${process.env.REACT_APP_BACKEND_BASE_URL}/api/user/login`, {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

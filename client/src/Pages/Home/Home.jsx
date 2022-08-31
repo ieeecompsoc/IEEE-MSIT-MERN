@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     return (
         <header className='app__home'>
-            <Menubar backgroundClr="transparent" />
+            <Menubar backgroundClr="rgba(0, 0, 0, 0.3)" />
             <div>
                 <figure className='app__home-mainImg'>
-                    <img src={Images.ieeeMainImg} alt="" title='IEEE'/>
+                    <img src={Images.ieeeMainImg} alt="" title='IEEE' />
                     <img src={Images.logoMainWhite} alt="IEEE" title='IEEE' className="app__home-mainImg-ieeeLogo" />
                 </figure>
                 <div className='app__home-logoContainer'>
@@ -53,4 +53,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Home;

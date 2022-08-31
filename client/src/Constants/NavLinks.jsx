@@ -26,14 +26,19 @@ const NavItems = [
         display: 'About Us',
         route: '/about'
     },
+    ,
     {
-        display: 'Events',
-        route: '/events'
+        display: 'Gallery',
+        route: '/gallery'
     },
-    {
-        display: 'Blogs',
-        route: '/blogs'
-    },
+    // {
+    //     display: 'Events',
+    //     route: '/events'
+    // },
+    // {
+    //     display: 'Blogs',
+    //     route: '/blogs'
+    // },
     {
         display: 'Executive Board',
         route: '/execom'
@@ -47,7 +52,7 @@ const FooterLinks = [
     },
     {
         display: 'Contact Us',
-        url: 'http://ieee.msit.in/'
+        url: '/about'
     },
     {
         display: 'Maharaja Surajmal Institute of Technology',

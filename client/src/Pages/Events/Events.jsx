@@ -8,7 +8,7 @@ const Events = () => {
 
     async function fetchApp() {
         try {
-            const { data } = await axios(process.env.REACT_APP_BACKEND_BASE_URL + '/events/get')
+            const { data } = await axios(`${process.env.REACT_APP_BACKEND_BASE_URL}/events/get`)
             setEvents(data)
         } catch { }
     }

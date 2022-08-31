@@ -12,22 +12,26 @@ const execomDetailsOptions = [
     {
         execom_section: "cs",
         section_heading: "IEEE CS",
-        heading_color: "#FFA300"
+        heading_color: "#FFA300",
+        link: "chapters/cs",
     },
     {
         execom_section: "ras",
         section_heading: "IEEE RAS",
-        heading_color: "#BA0C2F"
+        heading_color: "#BA0C2F",
+        link: "chapters/ras",
     },
     {
         execom_section: "pes",
         section_heading: "IEEE PES",
-        heading_color: "#00843D"
+        heading_color: "#00843D",
+        link: "chapters/pes",
     },
     {
         execom_section: "wie",
         section_heading: "IEEE WIE",
-        heading_color: "#981D97"
+        heading_color: "#981D97",
+        link: "/affinityGroup/wie",
     },
     {
         execom_section: "",
