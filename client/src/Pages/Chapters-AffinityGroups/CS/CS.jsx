@@ -11,19 +11,20 @@ const CS = () => {
                 <img className="CS-img" src={CSLogo} alt="cs-logo" />
                 <h2 className="cs_heading">Computer Society</h2>
                 <hr className="cs_line" />
-                <p className="cs_main-content">IEEE MSIT has had a pivotal role to play in advancing technological pursuits and social networking of MSIT. Since it's inception in 2009, it has played a forward role in providing it's members a platform to interact, collaborate and work towards a building a technically sound ecosystem. IEEE MSIT WIE, PES, MTTS, CS chapters have worked in cohesion to explore and bring forth various engineering avenues and opportunities such as hackathons, seminars, hands-on workshops, industrial visits, women empowerment seminars, technical project exhibitions, STEP programmes and a lot more.
+                <p className="cs_main-content">IEEE Computer Society is a part of the world's leading membership organization dedicated to computer science and
+                    technology. It is the trusted information, networking and career development source for a global community of
+                    technology leaders which includes researchers, educators, software engineers, IT professionals, Employers and
+                    students.
                     <br />
                     <br />
-                    The latest IEEE MSIT advent is it's AWP-PCB lab which is a project centric lab aiming at finding hardware solutions to real world glitches faced by the institution as a whole.
+                    IEEE MSIT CS is a pragmatic society run by a young committee of extremely talented and diligent students of
+                    Maharaja Surajmal Institute of Technology. It provides a platform to impart knowledge on computers and
+                    technology through a variety of workshops, conferences and SIGs. It keeps you technically current and promotes
+                    extensive in depth knowledge of the subject.
                     <br />
                     <br />
-                    IEEE MSIT plans to keep growing, directing, mentoring and spontaneously nurturing the budding technologists of the institution.
-                    <br />
-                    <br />
-                    With TPE as it's major project exhibitory event, IEEE MSIT focusses on hardware and software solutions and provides a ready platform for the budding engineers across the country to exhibit their engineering prowess and put their skills to a judicious use. The exhibits are judged by a panel of experienced judges who serve as able mentors to the students.
-                    <br />
-                    <br />
-                    With it's wide reach, IEEE MSIT serves as an ideal platform for the students to network, co-learn and develop.</p>
+                    So if you are a tech-o-maniac and absolutely love the idea of learning more about it, we are here for you!
+                </p>
             </div>
         </div>
     )

@@ -11,19 +11,13 @@ const RAS = () => {
                 <img className="RAS-img" src={RASLogo} alt="ras-logo" />
                 <h2 className="ras_heading">Robotics and Automation Society</h2>
                 <hr className="ras_line" />
-                <p className="ras_main-content">IEEE MSIT has had a pivotal role to play in advancing technological pursuits and social networking of MSIT. Since it's inception in 2009, it has played a forward role in providing it's members a platform to interact, collaborate and work towards a building a technically sound ecosystem. IEEE MSIT WIE, PES, MTTS, CS chapters have worked in cohesion to explore and bring forth various engineering avenues and opportunities such as hackathons, seminars, hands-on workshops, industrial visits, women empowerment seminars, technical project exhibitions, STEP programmes and a lot more.
-                    <br />
-                    <br />
-                    The latest IEEE MSIT advent is it's AWP-PCB lab which is a project centric lab aiming at finding hardware solutions to real world glitches faced by the institution as a whole.
-                    <br />
-                    <br />
-                    IEEE MSIT plans to keep growing, directing, mentoring and spontaneously nurturing the budding technologists of the institution.
-                    <br />
-                    <br />
-                    With TPE as it's major project exhibitory event, IEEE MSIT focusses on hardware and software solutions and provides a ready platform for the budding engineers across the country to exhibit their engineering prowess and put their skills to a judicious use. The exhibits are judged by a panel of experienced judges who serve as able mentors to the students.
-                    <br />
-                    <br />
-                    With it's wide reach, IEEE MSIT serves as an ideal platform for the students to network, co-learn and develop.</p>
+                <p className="ras_main-content">
+                    The IEEE Robotics and Automation Society's objectives are scientific, literary and educational in
+                    character. The Society strives for the advancement of the theory and practice of robotics and automation
+                    engineering and science and of the allied arts and sciences, and for the maintenance of high
+                    professional standards among its members, all in consonance with the Constitution and Bylaws of the IEEE
+                    and with special attention to such aims within the Field of Interest of the Society.                    <br />
+                </p>
             </div>
         </div>
     )
