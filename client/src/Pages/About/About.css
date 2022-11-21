@@ -197,6 +197,10 @@
     .contact__container {
         flex-direction: column-reverse;
     }
+
+    .contact__container iframe {
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 650px) {
