@@ -20,6 +20,11 @@ const advisoryBoardList = [
         name: 'Ms. Anshul Pareek',
         title: 'Chapter Advisor - RAS',
         image: Images.anshulPareek
+    },
+    {
+        name: 'Dr. Richa Gupta',
+        title: 'AWP_PCB lab Faculty In-charge',
+        image: Images.richaGupta
     }
 ]
 

@@ -9,6 +9,7 @@ import anupamaKaushik from '../Assets/anupamaKaushik.jpg';
 import jyotiJain from '../Assets/jyotiJain.jpg';
 import poojaKherwa from '../Assets/poojaKherwa.jpeg';
 import anshulPareek from '../Assets/anshulPareek.jpeg';
+import richaGupta from "../Assets/richaGupta.jpeg"
 
 export default {
     logoMainWhite,
@@ -21,5 +22,6 @@ export default {
     anupamaKaushik,
     jyotiJain,
     poojaKherwa,
-    anshulPareek
+    anshulPareek,
+    richaGupta
 }
