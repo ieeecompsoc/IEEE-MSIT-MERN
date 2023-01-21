@@ -26,14 +26,14 @@ const NavItems = [
         display: 'About Us',
         route: '/about'
     },
-    {
-        display: 'Events',
-        route: '/events'
-    },
-    {
-        display: 'Blogs',
-        route: '/blogs'
-    },
+    // {
+    //     display: 'Events',
+    //     route: '/events'
+    // },
+    // {
+    //     display: 'Blogs',
+    //     route: '/blogs'
+    // },
     {
         display: 'Executive Board',
         route: '/execom'

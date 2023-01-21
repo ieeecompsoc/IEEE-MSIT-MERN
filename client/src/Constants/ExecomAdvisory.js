@@ -7,7 +7,7 @@ const advisoryBoardList = [
         image: Images.anupamaKaushik
     },
     {
-        name: 'Mrs. Pooja Kherwa',
+        name: 'Dr. Pooja Kherwa',
         title: 'Chapter Advisor - CS',
         image: Images.poojaKherwa
     },
@@ -17,13 +17,13 @@ const advisoryBoardList = [
         image: Images.jyotiJain
     },
     {
-        name: 'Ms. Anshul Pareek',
+        name: 'Dr. Anshul Pareek',
         title: 'Chapter Advisor - RAS',
         image: Images.anshulPareek
     },
     {
         name: 'Dr. Richa Gupta',
-        title: 'AWP_PCB lab Faculty In-charge',
+        title: 'AWP-PCB lab Faculty In-charge',
         image: Images.richaGupta
     }
 ]
