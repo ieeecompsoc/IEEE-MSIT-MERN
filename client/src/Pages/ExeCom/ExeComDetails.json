@@ -1,457 +1,591 @@
 {
-    "TA": [],
-    "MAIN": [
-        {
-            "name": "Jai Guglani",
-            "email": "jai.guglani16@gmail.com",
-            "stream": "Bcom Hons",
-            "part": "MAIN",
-            "position": "Public Representative",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/jaiguglani",
-            "linkedin": "http://linkedin.com/in/jai-guglani-076335193",
-            "resume": "https://drive.google.com/open?id=1Hg78Z_S3EKIiSn61z7MGvw01QjNkZAI9",
-            "image": "https://drive.google.com/uc?export=view&id=1fETqaiouugdcSkkMOW-6CUQUIy506BTe"
-        },
-        {
-            "name": "Aviral Bhardwaj ",
-            "email": "aviral.lancer@gmail.com",
-            "stream": "CSE",
-            "part": "MAIN",
-            "position": "SIG Lead",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/iamaviralbhardwaj/",
-            "linkedin": "https://www.linkedin.com/in/aviral-bhardwaj/",
-            "resume": "https://drive.google.com/open?id=13ycstPmJDF6GF22-1tN-yiEfRLPhVfQQ",
-            "image": "https://drive.google.com/uc?export=view&id=1j4kbnJUtLe_1psrttEVbbFULT7aBJu1f"
-        },
-        {
-            "name": "Annanya Mohanty",
-            "email": "annanyamohanty777@gmail.com",
-            "stream": "CSE",
-            "part": "MAIN",
-            "position": "General Secretary",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/eliziaeve7",
-            "linkedin": "-",
-            "resume": "",
-            "image": "https://drive.google.com/uc?export=view&id=1lEFpr5-kDbX-SPOU6TT_glaxjFitZNRM"
-        },
-        {
-            "name": "YASH BHARDWAJ",
-            "email": "Yash Bhardwaj",
-            "stream": "CSE",
-            "part": "MAIN",
-            "position": "Membership Development Head",
-            "rank": "3",
-            "instagram": "",
-            "linkedin": "https://www.linkedin.com/in/yash-bhardwaj-b13323212",
-            "resume": "https://drive.google.com/open?id=1ufre_OkWRiaidm-8MkmVeYpLhvFAU2CQ",
-            "image": "https://drive.google.com/uc?export=view&id=1Ij_yNw7TvNrNSNobq5wQ_SYgj2uSIx8M"
-        },
-        {
-            "name": "Ashmita Chadha",
-            "email": "ashmita@ieee.org",
-            "stream": "ECE",
-            "part": "MAIN",
-            "position": "Chairperson",
-            "rank": "1",
-            "instagram": "instagram.com/ashmita_chadha",
-            "linkedin": "https://www.linkedin.com/in/ashmita-chadha-6409541a6",
-            "resume": "https://drive.google.com/open?id=1i5jxMu2IHwE9h7IyfwIQ6ZvrbbUgH8Uq",
-            "image": "https://drive.google.com/uc?export=view&id=1h-4dqnMstU2WCMQ8184Proe3HCm3e8eU"
-        },
-        {
-            "name": "Abhinav Pandey",
-            "email": "pabhinav30@gmail.com",
-            "stream": "ECE",
-            "part": "MAIN",
-            "position": "Vice Chairperson ( External )",
-            "rank": "2",
-            "instagram": "https://www.instagram.com/abhinavv.pandeyy",
-            "linkedin": "www.linkedin.com/in/abhinav-pandey-22299a20a",
-            "resume": "https://drive.google.com/open?id=1DO6XEfSbEs1cbICFzC_z6zBXDRJy7jBo",
-            "image": "https://drive.google.com/uc?export=view&id=1tc6A4t-XFi3xQ3Mp2XuHufn0Aj5I4a-J"
-        },
-        {
-            "name": "Kshitij Saxena",
-            "email": "shubxit@gmail.com",
-            "stream": "ECE",
-            "part": "MAIN",
-            "position": "Vice Chairperson (Internal)",
-            "rank": "2",
-            "instagram": "https://www.instagram.com/itsa_me_xyz/",
-            "linkedin": "https://www.linkedin.com/in/kshitijsaxena1212/",
-            "resume": "https://drive.google.com/open?id=1uZia3vjLGs-2QBZo3lLBGfGG8hdTzAWF",
-            "image": "https://drive.google.com/uc?export=view&id=14hU_j93XDi5mAznQ6uDEO0WbVJGIwH9a"
-        },
-        {
-            "name": "Yashasvi Kardam",
-            "email": "yashasvikardam17@gmail.com",
-            "stream": "IT",
-            "part": "MAIN",
-            "position": "Treasurer",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/Yashasvikardam/",
-            "linkedin": "-",
-            "resume": "https://drive.google.com/open?id=176s5ljpcl7u-xKciNm0byMqQZnXDLo3x",
-            "image": "https://drive.google.com/uc?export=view&id=1ex58PzK8nFf6mkMODMn6KFpNipuLFmVz"
-        },
-        {
-            "name": "Pulkit Mittal",
-            "email": "pulkit08mittal@gmail.com",
-            "stream": "IT",
-            "part": "MAIN",
-            "position": "AWP-PCBlab-Incharge",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/_pulkit_mittal_/",
-            "linkedin": "https://www.linkedin.com/in/pulkit-mittal-a713a9195/",
-            "resume": "https://drive.google.com/open?id=1znwL41KDnnQnCI5tlrv_dXsL7twaTQgP",
-            "image": "https://drive.google.com/uc?export=view&id=14z2L4GsnFLe1Gd6nsMBUioMxAOxhBvje"
-        }
-    ],
-    "CS": [
-        {
-            "name": "Saket Mundra",
-            "email": "saketmundra2707@gmail.com",
-            "stream": "CSE",
-            "part": "CS",
-            "position": "Vice Chairperson",
-            "rank": "2",
-            "instagram": "https://www.instagram.com/saketm_07/",
-            "linkedin": "https://www.linkedin.com/in/saket-mundra-346977199/",
-            "resume": "https://drive.google.com/open?id=1HPOCFQZunISqUOosZR37xtOSiMPrxoSU",
-            "image": "https://drive.google.com/uc?export=view&id=1kEmSQeqzsZ9rAbwkv0CA5a5Se0AnK0el"
-        },
-        {
-            "name": "CHIRAG NAGAR",
-            "email": "chiragnagar.tech@gmail.com",
-            "stream": "CSE",
-            "part": "CS",
-            "position": "Public Representative",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/_chiragnagar_047/",
-            "linkedin": "https://www.linkedin.com/in/chirag-nagar-22ab39212/",
-            "resume": "https://drive.google.com/open?id=1LLEuMMVoyxVMH9qCo54epiP6CvenVctI",
-            "image": "https://drive.google.com/uc?export=view&id=1OMXNKu_Oat29sk4ptIhH9tkMJYa74ucG"
-        },
-        {
-            "name": "Ishika Punchariya",
-            "email": "ishika.punchariya@gmail.com",
-            "stream": "CSE",
-            "part": "CS",
-            "position": "General Secretary",
-            "rank": "3",
-            "instagram": "",
-            "linkedin": "https://www.linkedin.com/in/ishika-punchariya-7a286121b",
-            "resume": "https://drive.google.com/open?id=1T6yFQKE_RItxor7wX4eyfPdZF3blUws_",
-            "image": "https://drive.google.com/uc?export=view&id=11iB0jaYBMAWYiqNFUpfZU8Psn1GkKbup"
-        },
-        {
-            "name": "Shreshth Sharma",
-            "email": "shreshthsharma.contact@gmail.com",
-            "stream": "CSE",
-            "part": "CS",
-            "position": "Treasurer",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/_shreshth._/",
-            "linkedin": "https://www.linkedin.com/in/shreshth-sharma-b09680225/",
-            "resume": "https://drive.google.com/open?id=1_Ij46pmt5mRQTNz9WPyFiMECdNRxMRKm",
-            "image": "https://drive.google.com/uc?export=view&id=1Ye2Q-PYvVLvzMTvCVE9skJ5fQvl0VMl3"
-        },
-        {
-            "name": "Prateek Bhardwaj",
-            "email": "bhardwajprateek777@gmail.com",
-            "stream": "ECE",
-            "part": "CS",
-            "position": "Chairperson",
-            "rank": "1",
-            "instagram": "https://www.instagram.com/prateekbhardwaj10/",
-            "linkedin": "www.linkedin.com/in/prateek-bhardwaj-10",
-            "resume": "https://drive.google.com/open?id=18G1f6ucWBDicavHtPX9SFrE2r6g6LRC2",
-            "image": "https://drive.google.com/uc?export=view&id=1M4aleIgV-G3p9WN7R91BDHqt7vDk0wS6"
-        }
-    ],
-    "RAS": [
-        {
-            "name": "Ankush Kumar Singh",
-            "email": "ankushsahil45@gmail.com",
-            "stream": "CSE",
-            "part": "RAS",
-            "position": "Treasurer",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/ankush_s24",
-            "linkedin": "https://www.linkedin.com/in/ankush-kumar-singh24/",
-            "resume": "https://drive.google.com/open?id=1Nl5wHrHiO5_mkqqDVCFtqoFgIXjPvW3m",
-            "image": "https://drive.google.com/uc?export=view&id=1ioJcEdmMT8KUALQ-vFfz-7TRkJb0DVDD"
-        },
-        {
-            "name": "Akshit Sehgal",
-            "email": "akshitsehgal31@gmail.com",
-            "stream": "ECE",
-            "part": "RAS",
-            "position": "Vice Chairperson",
-            "rank": "2",
-            "instagram": "",
-            "linkedin": "https://www.linkedin.com/in/akshit-sehgal-062b901b1",
-            "resume": "https://drive.google.com/open?id=1hqiHYGLPhSZpGXBAmdn3vTc-BZgo9zPY",
-            "image": "https://drive.google.com/uc?export=view&id=1xfycV_mA-u-9SfqBtnMWp1WGFCzHBI8X"
-        },
-        {
-            "name": "Tushita Singh",
-            "email": "tushitasingh24@gmail.com",
-            "stream": "ECE",
-            "part": "RAS",
-            "position": "Chairperson",
-            "rank": "1",
-            "instagram": "https://www.instagram.com/t.ushita/",
-            "linkedin": "https://www.linkedin.com/in/tushita-singh-39809a113/",
-            "resume": "https://drive.google.com/open?id=11txBUuGNh5GSjj_vxNMiAHpQr1zVxktc",
-            "image": "https://drive.google.com/uc?export=view&id=1I_cl7RMWgOpFVS-ogvAI4XQqfoPLndTX"
-        },
-        {
-            "name": "ARYAN SINGH MEHTA",
-            "email": "mehtamsit@gmail.com",
-            "stream": "ECE",
-            "part": "RAS",
-            "position": "General Secretary",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/_mehtaaa.06_/",
-            "linkedin": "www.linkedin.com/in/aryan-singh-mehta-34b524202",
-            "resume": "https://drive.google.com/open?id=1DNz122nJLC2ejl2FSds_xYlZFQdqB6df",
-            "image": "https://drive.google.com/uc?export=view&id=11uJ_QcI7DOWMDcEleeQ_00ynjCbMnUxm"
-        },
-        {
-            "name": "Yash Raj",
-            "email": "yr06122002@gmail.com",
-            "stream": "ECE",
-            "part": "RAS",
-            "position": "Public Representative",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/yash_raj0612/",
-            "linkedin": "https://www.linkedin.com/in/yash-raj-93a8a81b9",
-            "resume": "https://drive.google.com/open?id=1LrIxlQ5CmZSZNTETxKx8QJSghI00S4TV",
-            "image": "https://drive.google.com/uc?export=view&id=10BRsU2HcQnKoAMqA7065f6KVRY_cWzMb"
-        }
-    ],
-    "PES": [
-        {
-            "name": "Nidhi Kumari",
-            "email": "nid200128@gmail.com",
-            "stream": "ECE",
-            "part": "PES",
-            "position": "Treasurer",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/nidhi__k28/",
-            "linkedin": "https://www.linkedin.com/in/nidhi-kumari28/",
-            "resume": "https://drive.google.com/open?id=16uizx60sRCmcVwX6eNS6cd6ZnLDaTC5v",
-            "image": "https://drive.google.com/uc?export=view&id=1TTzYiduGDThoPSHPi2gnjZNuX9023uhh"
-        },
-        {
-            "name": "Arpita TrivediTrivedil",
-            "email": "arpita.trivedi1820@gmail.com",
-            "stream": "EEE",
-            "part": "PES",
-            "position": "General Secretary",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/arpita.trivedi",
-            "linkedin": "https://www.linkedin.com/in/arpita-trivedi-591a03204",
-            "resume": "https://drive.google.com/open?id=1r96pPxWY_ok-aCLW3xgmqyxg-5p9aj--",
-            "image": "https://drive.google.com/uc?export=view&id=1uwaAjPK4_Jk-js-pm2wY6EnRaewtLXC-"
-        },
-        {
-            "name": "Aryan Mahajan",
-            "email": "aryannmsit@gmail.com",
-            "stream": "EEE",
-            "part": "PES",
-            "position": "Vice-Chairperson",
-            "rank": "2",
-            "instagram": "https://instagram.com/pagla_ary",
-            "linkedin": "https://www.linkedin.com/in/aryan-mahajan-4a011820a",
-            "resume": "https://drive.google.com/open?id=182dHcNqJVL3jo4gWZ81hiAPTGDyoQuh1",
-            "image": "https://drive.google.com/uc?export=view&id=1schpFfMoLDVtKlhhRqKpe4dJFWT9zijU"
-        },
-        {
-            "name": "Himanshi Gupta",
-            "email": "ghimanshi1805@gmail.com",
-            "stream": "IT",
-            "part": "PES",
-            "position": "Public Representative",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/himanshi_1805/",
-            "linkedin": "https://www.linkedin.com/in/himanshi-gupta-091262205/",
-            "resume": "https://drive.google.com/open?id=1hmBM50tjikMzV_26gaicvTsy1Yh_0Ll-",
-            "image": "https://drive.google.com/uc?export=view&id=1rtqWkbhuY833xHlKj0GG6tNYyCt_-lg8"
-        }
-    ],
-    "WIE": [
-        {
-            "name": "Shubh Ashish Purohit",
-            "email": "shubhashishpurohit@gmail.com",
-            "stream": "CSE",
-            "part": "WIE",
-            "position": "Treasurer",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/shubh_ashish02/?hl=en",
-            "linkedin": "https://www.linkedin.com/in/shubh-ashish-purohit-4b1a8a149",
-            "resume": "https://drive.google.com/open?id=1YRs6osVMyTM0YxO9QDLndE3zd6FECEgA",
-            "image": "https://drive.google.com/uc?export=view&id=1xeO06U-iokuWuUiAkLi1UyeXoT0qaUvy"
-        },
-        {
-            "name": "Mansi Sharma",
-            "email": "mansish192003@gmail.com",
-            "stream": "ECE",
-            "part": "WIE",
-            "position": "Vice Chairperson",
-            "rank": "2",
-            "instagram": "https://www.instagram.com/mansi_sh19/",
-            "linkedin": "https://www.linkedin.com/in/mansi-sharma-08b956216",
-            "resume": "https://drive.google.com/open?id=1ZxpfHVCnJkUbZH5rtJUG4v1nPbmSohzO",
-            "image": "https://drive.google.com/uc?export=view&id=13vZwVtyuMLGnJ2EPpaoc8n4am40mb9YV"
-        },
-        {
-            "name": "KNVS Sai Sneha",
-            "email": "snehasai01@gmail.com",
-            "stream": "IT",
-            "part": "WIE",
-            "position": "Public Representative",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/snehaa2296/",
-            "linkedin": "https://www.linkedin.com/in/sneha-sai-knvs-25a7401a3/?originalSubdoMAIN=in",
-            "resume": "https://drive.google.com/open?id=14tj4kUOVH7NhBKE8H9wMTYjGEqvsE5mE",
-            "image": "https://drive.google.com/uc?export=view&id=1JNA-1SEv9QDS_oyMMG6MnHRMUk5JITuC"
-        },
-        {
-            "name": "Saumya Taneja",
-            "email": "saumyataneja@ieee.org",
-            "stream": "IT",
-            "part": "WIE",
-            "position": "Chairperson",
-            "rank": "1",
-            "instagram": "",
-            "linkedin": "www.linkedin.com/in/saumya-taneja-867625144",
-            "resume": "https://drive.google.com/open?id=1-OhfwC5m2185G1VF3O521VrcfWBk5K8v",
-            "image": "https://drive.google.com/uc?export=view&id=1Cv0dxXbxKUWlXZps8CcXdrM3vdt7q5-x"
-        },
-        {
-            "name": "KRISH GUPTA",
-            "email": "krish.257914@gmail.com",
-            "stream": "IT",
-            "part": "WIE",
-            "position": "General Secretary",
-            "rank": "3",
-            "instagram": "https://instagram.com/krish_gxpxa?utm_medium=copy_link",
-            "linkedin": "https://www.linkedin.com/in/krish-gupta-322583204",
-            "resume": "https://drive.google.com/open?id=1rgAOhocXkgzHe2x4UfkuR4Thnakg5TxJ",
-            "image": "https://drive.google.com/uc?export=view&id=1vr9Au88o4Lbo3rQ-meOgOEXqzyQPPK_U"
-        }
-    ],
-    "WEB_DEV_COMMITTEE": [
-        {
-            "name": "Abhishek Gupta",
-            "email": "s3.iabhishek@gmail.com",
-            "stream": "CSE",
-            "part": "WEB_DEV_COMMITTEE",
-            "position": "Chairperson",
-            "rank": "1",
-            "instagram": "https://www.instagram.com/abhi.draig/",
-            "linkedin": "https://linkedin.com/in/abhi-6885b1138",
-            "resume": "https://drive.google.com/open?id=1659BThmPH5PO8frEW6_ANrIoP4QAyhUD",
-            "image": "https://drive.google.com/uc?export=view&id=1-rmXSu6CMjlMiubot7tSbVL6lMIgMpPp"
-        }
-    ],
-    "PUBLICITY_COMMITTEE": [
-        {
-            "name": "Srishti Dharwani",
-            "email": "srishti.dharwani.30@gmail.com",
-            "stream": "CSE",
-            "part": "PUBLICITY_COMMITTEE",
-            "position": "Chairperson",
-            "rank": "1",
-            "instagram": "https://www.instagram.com/srishti_dharwani/",
-            "linkedin": "www.linkedin.com/in/srishti-dharwani",
-            "resume": "https://drive.google.com/open?id=1vH8YIRI24dtjGa2LyS8bTvr6pA6sH2-w",
-            "image": "https://drive.google.com/uc?export=view&id=1EJAVI0KfP7phmK98lp-JYFaCV8K2StnN"
-        }
-    ],
-    "PROGRAM_COMMITTEE": [
-        {
-            "name": "Gaurav Raghav",
-            "email": "gauravr397@gmail.com",
-            "stream": "IT",
-            "part": "PROGRAM_COMMITTEE",
-            "position": "Chairperson",
-            "rank": "1",
-            "instagram": "",
-            "linkedin": "https://www.linkedin.com/in/gaurav-raghav-ba0098145",
-            "resume": "https://drive.google.com/open?id=1vm7GiYnRPOb79VeV3ryF3G-jm33EY8gY",
-            "image": "https://drive.google.com/uc?export=view&id=1zzU7b6b_inHdKwMMsLHkyfEi47mZs6gA"
-        }
-    ],
-    "PROJECT_COMMITTEE": [
-        {
-            "name": "Aabhaas Sikka",
-            "email": "sikka.aabhaas0909@gmail.com",
-            "stream": "CSE",
-            "part": "PROJECT_COMMITTEE",
-            "position": "Hardware Lead",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/aabhaassikka0909/",
-            "linkedin": "https://www.linkedin.com/in/aabhaas-sikka-a84967147/",
-            "resume": "https://drive.google.com/open?id=1_7AwwdPcGYy9Crjjldrt_pMT-faM4uh3",
-            "image": "https://drive.google.com/uc?export=view&id=1Gn71fqlzXBJTeXfRckY6Vnkw5oFpV_BU"
-        },
-        {
-            "name": "Bishwajeet Parhi",
-            "email": "bishwajeet.techmaster@gmail.com",
-            "stream": "CSE",
-            "part": "PROJECT_COMMITTEE",
-            "position": "Software Lead",
-            "rank": "3",
-            "instagram": "https://www.instagram.com/biswa_20p/",
-            "linkedin": "https://www.linkedin.com/in/2002bishwajeet/",
-            "resume": "https://drive.google.com/open?id=1zIeLg2tBsaIM2J-j_wvR9cci51Ngi0Wy",
-            "image": "https://drive.google.com/uc?export=view&id=1j_060zyBLvbVyVr9Qf70kpws0Mr5w9K-"
-        }
-    ],
-    "EDITORIAL_COMMITTEE": [
-        {
-            "name": "Aryan Anand ",
-            "email": "aryan.anand1901@gmail.com",
-            "stream": "IT ",
-            "part": "EDITORIAL_COMMITTEE",
-            "position": "Chairperson",
-            "rank": "1",
-            "instagram": "https://instagram.com/__aryan.anand__",
-            "linkedin": "https://www.linkedin.com/in/aryan-anand-696b5b1b6",
-            "resume": "https://drive.google.com/open?id=1m_e4xuAJJlwSqnj0mvndLjlCAxmCqrDs",
-            "image": "https://drive.google.com/uc?export=view&id=1pG7NoWqoFjKsJ9Q8GidYMYv5DwYIhyqz"
-        }
-    ],
-    "DESIGN_COMMITTEE": [
-        {
-            "name": "Priyanshu Verma",
-            "email": "vermapriyanshu2000@gmail.com",
-            "stream": "IT",
-            "part": "DESIGN_COMMITTEE",
-            "position": "Chairperson",
-            "rank": "1",
-            "instagram": "https://www.instagram.com/_mr.priyanshu_/",
-            "linkedin": "https://www.linkedin.com/in/priyanshu-verma-b58818205/",
-            "resume": "https://drive.google.com/open?id=1JKYewAKRWOidTk1w0aRKwtGD1juiIhH5",
-            "image": "https://drive.google.com/uc?export=view&id=1p74wxw-qQyKyWOpYiYvMXl1jjLswWclC"
-        },
-        {
-            "name": "Nikunj",
-            "email": "nikunjadm@gmail.com",
-            "stream": "IT",
-            "part": "DESIGN_COMMITTEE",
-            "position": "Chairperson",
-            "rank": "1",
-            "instagram": "https://www.instagram.com/g.nikunjj",
-            "linkedin": "https://www.linkedin.com/in/nikunj-54758521b",
-            "resume": "https://drive.google.com/open?id=1vRJGLTQS1-yX4yAHCcOfQs79vpgUv88D",
-            "image": "https://drive.google.com/uc?export=view&id=10oOH9p9z4A_0CtIg8-NFBGJMVeuPblcF"
-        }
-    ]
+  "TA": [],
+  "MAIN": [
+    {
+      "rank": "2",
+      "name": "Drishti Pandita",
+      "email": "drishtipandita123@gmail.com",
+      "stream": "CSE",
+      "part": "MAIN",
+      "position": "General Secretary ",
+      "linkedin": "https://www.linkedin.com/in/drishti-pandita-590463143",
+      "instagram": "https://instagram.com/dr.ishtipandita?igshid=YmMyMTA2M2Y=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1PB7JLkkAf03u0zGy-xeYxRz_S99FDdxE",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1ZjF-HtwHpD91K5COaigct66ZbOXIPluL"
+    },
+    {
+      "rank": "3",
+      "name": "Sourabh Pal",
+      "email": "sourabhraychand32341@gmail.com",
+      "stream": "ECE",
+      "part": "MAIN",
+      "position": "AWP - PCB Lab In-Charge",
+      "linkedin": "https://www.linkedin.com/feed/SourabhPal",
+      "instagram": "https://www.instagram.com/raychandel___",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1OP68e54-8TcNnoVLQ7CV21XT2nU29OZ7",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1gEyM7Ur007ysMrtkiVMUQLjba85XBLxX"
+    },
+    {
+      "rank": "2",
+      "name": "Shubham Sharma",
+      "email": "shubhhammm25@gmail.com",
+      "stream": "CSE",
+      "part": "MAIN",
+      "position": "Treasurer ",
+      "linkedin": "https://www.linkedin.com/in/shubham-sharma-34bb98216",
+      "instagram": "https://instagram.com/shubhhammm___?igshid=YmMyMTA2M2Y=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1YNHuxBNFsGvYtLTBzOVsFlTZBiKk4fI4",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1dVf7rqVP_JcYMRJ10imu2wx_9rap7A4P"
+    },
+    {
+      "rank": "1",
+      "name": "Arpita Trivedi",
+      "email": "arpita.trivedi1820@gmail.com",
+      "stream": "EEE",
+      "part": "MAIN",
+      "position": "Vice-Chairperson(Internal)",
+      "linkedin": "https://www.linkedin.com/in/arpita-trivedi-591a03204",
+      "instagram": "https://www.instagram.com/arpita.trivedi/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1AaeRaHTmjiyU9hXl4XbbXkeUSgI3otgY",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=12qilI26avQ7-e-DM6ieTdvRwTpZ3JPvZ"
+    },
+    {
+      "rank": "1",
+      "name": "Krish Gupta",
+      "email": "krishgupta@ieee.org",
+      "stream": "IT",
+      "part": "MAIN",
+      "position": "Chairperson",
+      "linkedin": "https://www.linkedin.com/in/krish-gupta-322583204",
+      "instagram": "https://www.instagram.com/krish_gxpxa",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=16CRjeFxCoDDaCbK0AjAjFHVjtFBm0q598",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1_VVF0gCRmQikCD0lbAssJJm8d80kvUk"
+    },
+    {
+      "rank": "2",
+      "name": "Tusshar Aggarwal ",
+      "email": "tussharaggarwal2002@gmail.com",
+      "stream": "ECE",
+      "part": "MAIN",
+      "position": "Public Relations Representative ",
+      "linkedin": "https://www.linkedin.com/in/tusshar-aggarwal-926333139",
+      "instagram": "https://www.instagram.com/tusshar.ag21/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1J2ew4Ox1B3x3SYykNefI8GnsBuLnu6bt",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1AzeV8GqBGAaN45Gv-wRaRfRNeiQyVgqK"
+    },
+    {
+      "rank": "3",
+      "name": "Piyush Nath",
+      "email": "piyushgoswami890@gmail.com",
+      "stream": "ECE",
+      "part": "MAIN",
+      "position": "SIG LEAD",
+      "linkedin": "https://www.linkedin.com/in/piyush-nath-goswami-6b1a31201",
+      "instagram": "",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=17W4Dd4v8YrBrJGu0TWcMxB_E6BZm_vtY",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1AtXKK1mbMn7DLCX2cR3dyAbZftIZV5Wd"
+    },
+    {
+      "rank": "1",
+      "name": "Aviral Bhardwaj",
+      "email": "aviral.lancer@gmail.com",
+      "stream": "CSE",
+      "part": "MAIN",
+      "position": "Vice-Chairperson(External)",
+      "linkedin": "https://www.linkedin.com/in/aviral-bhardwaj/",
+      "instagram": "https://www.instagram.com/iamaviralbhardwaj/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1KoBi9QWFynGLz1QMKWO6iW38ZLKlOpi7",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1cfSs-Q018cA86w8DVJ2mfsG7rbky2OWZ"
+    },
+    {
+      "rank": "3",
+      "name": "Kartikay Kapoor ",
+      "email": "kartikaykapoor03@gmail.com",
+      "stream": "IT",
+      "part": "MAIN",
+      "position": "AWP-PCB LAB In-Charge ",
+      "linkedin": "https://www.linkedin.com/in/kartikay-kapoor-b46173204",
+      "instagram": "",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=12rc-WKBhGuQktMjpKRybAdeg7YmxQxR2",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1QVQPZ5fHaQnqrYQeKmLMr38zkokCiysj"
+    },
+    {
+      "rank": "3",
+      "name": "Piyush Singh",
+      "email": "piyush8416570@gmail.com",
+      "stream": "CSE",
+      "part": "MAIN",
+      "position": "SIG Lead",
+      "linkedin": "https://www.linkedin.com/in/piyush-9a884a213/",
+      "instagram": "https://www.instagram.com/cosmixpiyush/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1uYgkkX_34JMeD41FRvOiKMSc6gxTTCCp",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1AaVznrE7rFWY7CreRQ99Jgdsv644JyiZ"
+    }
+  ],
+  "CS": [
+    {
+      "rank": "1",
+      "name": "Shaan Goswami ",
+      "email": "shaangoswami18@gmail.com",
+      "stream": "IT",
+      "part": "CS",
+      "position": "Chairperson ",
+      "linkedin": "https://www.linkedin.com/in/shaan-goswami-01a757203",
+      "instagram": "https://instagram.com/_shaan_goswami_?igshid=YmMyMTA2M2Y=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=13USLJj4qCFF3oC7j_zF-GoeR3VUJr2Jp",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1olvkAwqKFbBw51WPRjw6krxI46f3OjxY"
+    },
+    {
+      "rank": "1",
+      "name": "Arsh Jindal",
+      "email": "arshjindal2101@gmail.com",
+      "stream": "CSE",
+      "part": "CS",
+      "position": "Vice-Chairperson",
+      "linkedin": "https://www.linkedin.com/in/arsh-jindal-0050561a0",
+      "instagram": "https://instagram.com/arsh_jindal_?igshid=YmMyMTA2M2Y=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1Bn8c4DNnqkGErb76KGeiw1ZPp0yjjzcB",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1kqB4HDAL97-tQKWDqPc2Un2w64STEP6U"
+    },
+    {
+      "rank": "2",
+      "name": "Ridhim Gupta ",
+      "email": "ridhimg15@gmail.com",
+      "stream": "BCA ",
+      "part": "CS",
+      "position": "Public Relations Representative ",
+      "linkedin": "https://www.linkedin.com/in/ridhim-gupta-278751256",
+      "instagram": "https://instagram.com/ridhim._?igshid=ZmZhODViOGI=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=164gnjGbm1L7sr103CYyadNeEDWMohhVf",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1185tLOB8L3Xgg9KjjaY2yNV7SRK4uvFC"
+    },
+    {
+      "rank": "2",
+      "name": "SEIYA SOIN",
+      "email": "seiya.soin@gmail.com",
+      "stream": "CSE",
+      "part": "CS",
+      "position": "Treasurer",
+      "linkedin": "https://www.linkedin.com/in/seiya-soin-615707249",
+      "instagram": "https://instagram.com/seiya_soin?igshid=NDk5N2NlZjQ=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1STrFgz7360g1VilGqDydEbvKQONJYjm6",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1lYs4JgyO55jCjAMusnYc5_A1kW1gnwEU"
+    },
+    {
+      "rank": "2",
+      "name": "Ujjwal Solanki",
+      "email": "ujjisolanki25@gmail.com",
+      "stream": "BCA",
+      "part": "CS",
+      "position": "General Secretary ",
+      "linkedin": "https://www.linkedin.com/in/ujjwal-solanki-14658625b",
+      "instagram": "https://instagram.com/__ujjwal__20?igshid=ZDdkNTZiNTM=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1Ld_VLeXXS3JfzHhqhkbNb2YSRCt5Jki3",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1_skXpp89gufuj-DKM4S4dZ4hbBTkGCPE"
+    }
+  ],
+  "RAS": [
+    {
+      "rank": "1",
+      "name": "Aabhaas Sikka",
+      "email": "sikka.aabhaas0909@gmail.com",
+      "stream": "CSE",
+      "part": "RAS",
+      "position": "Chairperson",
+      "linkedin": "https://www.linkedin.com/in/aabhaas-sikka-a84967147/",
+      "instagram": "",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1rxWxojmoMMAlJzJFJLjNtUYBGrFux-U2",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1Y5DxINGyUkrrEkVVPUal_0ryaRWZSxGz"
+    },
+    {
+      "rank": "2",
+      "name": "AMAN KUMAR",
+      "email": "amancoolxp@gmail.com",
+      "stream": "ECE",
+      "part": "RAS",
+      "position": "Public Relations Representative",
+      "linkedin": "https://www.linkedin.com/in/aman-kumar-93196323b",
+      "instagram": "https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODU4NzE0MTA1NjQ1MDYx?igshid=OGQ2MjdiOTE=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1gMUPweWKg0G7cFFly6_DCgUHbmQ2ngYY",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1lRXV8Ju3NAgIAD1S1vbnX2qF60wx8Hr4"
+    },
+    {
+      "rank": "1",
+      "name": "Vivek Tarun",
+      "email": "vivektarun1234@gmail.com",
+      "stream": "ECE",
+      "part": "RAS",
+      "position": "Vice-Chairperson",
+      "linkedin": "https://www.linkedin.com/in/vivektarun/",
+      "instagram": "https://www.instagram.com/vivektarun/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1v8MZJ5EinwDvmVhLHK37P_1cbEIgZ-8D",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1m2HVFU5bihRGd9CE94-lY9YCvnIMbpPR"
+    },
+    {
+      "rank": "2",
+      "name": "Pratham Bansal",
+      "email": "prathambansal1762003@gmail.com",
+      "stream": "ECE",
+      "part": "RAS",
+      "position": "Treasurer ",
+      "linkedin": "https://www.linkedin.com/in/pratham-bansal-92386a245/",
+      "instagram": "https://instagram.com/pratham_bansal17?igshid=ZmZhODViOGI=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1YmIAH-STqceefaQskppBadhtMCPYZXz0",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1rIpu-U2GEAh3_lLhyNTA437Qk3L7Lef7"
+    },
+    {
+      "rank": "2",
+      "name": "Kriti Gupta",
+      "email": "kritigupta212@gmail.com",
+      "stream": "ECE",
+      "part": "RAS",
+      "position": "General Secretary ",
+      "linkedin": "hhttps://www.linkedin.com/in/kriti-gupta-a918ab262",
+      "instagram": "https://instagram.com/kritigupta24_?igshid=ZmZhODViOGI=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1kbktPkpqCydhZXQpMRZ-Ylpo2gisOi0H",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1L4okokjRb2wrCHsmy0UGfnWtt9INdDDS"
+    }
+  ],
+  "PES": [
+    {
+      "rank": "1",
+      "name": "Aryan Anand",
+      "email": "aryan.anand@ieee.org",
+      "stream": "IT",
+      "part": "PES",
+      "position": "Chairperson ",
+      "linkedin": "https://www.linkedin.com/in/aryan-anand-696b5b1b6",
+      "instagram": "https://instagram.com/__aryan.anand__ ",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1dEEoILle8knMJ4i6O-DHXMT5uMMbU9ph",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1l15SIxG3SJAxnK_LZlgvd_zzZbI2v475"
+    },
+    {
+      "rank": "2",
+      "name": "Deepu Singh",
+      "email": "deepusingh12345687@gmail.com",
+      "stream": "ECE",
+      "part": "PES",
+      "position": "Treasurer",
+      "linkedin": "https://www.linkedin.com/in/deepu-singh/",
+      "instagram": "https://www.instagram.com/bad_captain_01mr.deepu/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1wyaBLSkdhrz30VIUGh-3FpZD04mXGWX_",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1zMGPSnhtTutpJAFekg5-fjhSqVR8z3Ga"
+    },
+    {
+      "rank": "2",
+      "name": "Jigyasa kaur chawla",
+      "email": "jigyasakaur22212@gmail.com",
+      "stream": "IT",
+      "part": "PES",
+      "position": "General Secretary ",
+      "linkedin": "https://www.linkedin.com/in/jigyasa-kaur-3070861b1/",
+      "instagram": "https://www.instagram.com/jigyasa_sky/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1FtlDtYJbjqMloh_0BIVCYQJQDDr9uc0V",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1_trTVxpxZLm_YzxHacSmJrwYzB4vy7Sj"
+    },
+    {
+      "rank": "2",
+      "name": "Ashmit Nehra",
+      "email": "ashmitnehra2003@gmail.com",
+      "stream": "ECE",
+      "part": "PES",
+      "position": "Public Relations Representative",
+      "linkedin": "",
+      "instagram": "https://www.instagram.com/_ashmit123_",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1USsB-JQAIz9ciOT6mv3g9EYoQLbkIG2x",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1L9WpIFIZ039gLYKK3B0MOMtf2dHdxgsT"
+    },
+    {
+      "rank": "1",
+      "name": "Aditya Singh",
+      "email": "aditya28singh2001@gmail.com",
+      "stream": "IT",
+      "part": "PES",
+      "position": "Vice-Chairperson",
+      "linkedin": "https://www.linkedin.com/in/aditya-singh-982743215",
+      "instagram": "https://instagram.com/aditya28singh?igshid=YmMyMTA2M2Y=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1xZH6LZbOgt9IOMlgBrZ_Vmcjv75IJqZp",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=18IjIbPgXDkyK5DMDKEZW9pdBTNXW62iI"
+    }
+  ],
+  "WIE": [
+    {
+      "rank": "1",
+      "name": "Sameep Punjani",
+      "email": "sameep.punjani31@gmail.com",
+      "stream": "IT",
+      "part": "WIE",
+      "position": "Chairperson ",
+      "linkedin": "https://www.linkedin.com/in/sameep-punjani-0b8447208",
+      "instagram": "https://www.instagram.com/sameep_punjani",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1ZmD1WIDC1bjTTWZaXhHEn9KpnaobcNq2",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1yheXT4K5d9AJsavNkQpT7DIbdUVFBgdJ"
+    },
+    {
+      "rank": "2",
+      "name": "Pranjal",
+      "email": "pranjalsh91@gmail.com",
+      "stream": "ECE",
+      "part": "WIE",
+      "position": "General Secretary",
+      "linkedin": "http://www.linkedin.com/in/pranjal-703789262",
+      "instagram": "https://instagram.com/pranjal_s1906?igshid=ZDdkNTZiNTM=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1raus9XhDgq5uK9n8HeNVI6tP83Odt7Fn",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1yUlZf6LqJbvWt3gWETDPwxgDia44DwOG"
+    },
+    {
+      "rank": "1",
+      "name": "ISHNEET KAUR CHADHA",
+      "email": "ishneet42@gmail.com",
+      "stream": "IT",
+      "part": "WIE",
+      "position": "Vice-Chairperson",
+      "linkedin": "https://www.linkedin.com/in/ishneet-kaur-chadha",
+      "instagram": "https://www.instagram.com/ishneet_42/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1PpLklOUB0QaIFOsJnL1LLxdCnaH-p1Sq",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1SUwA1S5Cy9pntQ5wvXO2C-U5waMbEqU8"
+    },
+    {
+      "rank": "2",
+      "name": "Aparna Jindal",
+      "email": "aparnajindal1212@gmail.com",
+      "stream": "IT",
+      "part": "WIE",
+      "position": "Treasurer ",
+      "linkedin": "http://www.linkedin.com/in/aparna-jindal-513564229",
+      "instagram": "https://instagram.com/aparna_jindal_?igshid=OGQ2MjdiOTE=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1amoP2190WVv_oV1QrQPTywafBHF3gSn2",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1R0JGILQl2HzkMpX93cBUqMyppV9IjI1Y"
+    },
+    {
+      "rank": "2",
+      "name": "PRIYANSHU MAHENDRA",
+      "email": "priyanshumahendra0@gmail.com",
+      "stream": "IT",
+      "part": "WIE",
+      "position": "Public Relations Representative",
+      "linkedin": "http://linkedin.com/in/priyanshu-mahendra-64bb08250",
+      "instagram": "https://instagram.com/priyanshu_mahendra?igshid=YWJhMjlhZTc=",
+      "resume": "https://drive.google.com/u/1/open?id=1gI-nNHAWKYhTW4nNstVagjNcujZeJt8E&usp=forms_web",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1tPtej7l4KkUTMqJvO0rlTK9rG9_qsEOb"
+    }
+  ],
+  "PROJECT_COMMITTEE": [
+    {
+      "rank": "2",
+      "name": "Sanchit Baweja",
+      "email": "sanchitbaweja1@gmail.com",
+      "stream": "CSE",
+      "part": "PROJECT_COMMITTEE",
+      "position": "Treasurer",
+      "linkedin": "https://www.linkedin.com/in/sanchit-baweja-bb3800227/",
+      "instagram": "https://www.instagram.com/baweja.sanchit/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1VmTXuQ7AuZX68zH2XEq8L1yK4ixXNb_w",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1O8z9HIQzR5La0vEpuROdZ7iiziF3LGRY"
+    },
+    {
+      "rank": "1",
+      "name": "ADARSH GOYAL",
+      "email": "ashu2100ag@gmail.com",
+      "stream": "ECE",
+      "part": "PROJECT_COMMITTEE",
+      "position": "Hardware Lead ",
+      "linkedin": "https://www.linkedin.com/in/adarsh-goyal-20a73b246",
+      "instagram": "https://www.instagram.com/invites/contact/?i=znzml8c1uz5e&utm_content=3qjv2ky",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1qNWKTL5SqQeI3ue6QUPCz3DYuZxqkgRg",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1EDRwJI-mQxeuQaRwPgKDDlwNUHqC9hki"
+    },
+    {
+      "rank": "1",
+      "name": "Utkarsh Ahuja ",
+      "email": "ahujautkarsh80@gmail.com",
+      "stream": "IT",
+      "part": "PROJECT_COMMITTEE",
+      "position": "Software Lead and Web Dev Lead",
+      "linkedin": "https://www.linkedin.com/in/utkarsh-ahuja-44aa90227",
+      "instagram": "https://www.instagram.com/ahuja_utkarsh03/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1bgfJbQ3BzDgUtwrDS8XIFta4g77NBY9n",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1Sx3MMe6icUbvbVtSFGhY9ZnO3mwNObHd"
+    },
+    {
+      "rank": "1",
+      "name": "Siddharth Dhondiyal",
+      "email": "siddharth.dhondiyal2512@gmail.com",
+      "stream": "CSE",
+      "part": "PROJECT_COMMITTEE",
+      "position": "Web Dev Vice Chairperson",
+      "linkedin": "https://www.linkedin.com/mwlite/in/siddharth-dhondiyal-aa1036240",
+      "instagram": "https://www.instagram.com/siddharthdhondiyal/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1JUC-lpjFz8HvC6dHEU8PazfEVNqoVVEp",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1w3Xx_-H-b8nZ2hjuaLiNwsmGwGhUo0NO"
+    }
+  ],
+  "PUBLICITY_COMMITTEE": [
+    {
+      "rank": "1",
+      "name": "Akshit Bhardwaj",
+      "email": "bhardwajakshit236@gmail.com",
+      "stream": "ECE",
+      "part": "PUBLICITY_COMMITTEE",
+      "position": "Chairperson",
+      "linkedin": "https://www.linkedin.com/in/akshit-bhardwaj-261963257",
+      "instagram": "",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1mAUavP3Njbp1Bb-pp8biFUWlXmiL8mWK",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1vhYc85kSmDRUqL96ROiwQHpqobaNIKqW"
+    },
+    {
+      "rank": "1",
+      "name": "VANSHIKA",
+      "email": "rattan.singh0402@gmail.com",
+      "stream": "CSE",
+      "part": "PUBLICITY_COMMITTEE",
+      "position": "Vice-Chairperson",
+      "linkedin": "https://www.linkedin.com/in/vanshika-singh-87a505250",
+      "instagram": "https://www.instagram.com/singh_vanshika0402",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1fh2rS1pAnRBAr-KulIeAkmRTNVWUVLAV",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1QssrMy9q-TyOQtEQhTzg3LIfmAC5eNdO"
+    }
+  ],
+  "PROGRAM_COMMITTEE": [
+    {
+      "rank": "1",
+      "name": "Samarth Gupta",
+      "email": "samarthg1410@gmail.com",
+      "stream": "CSE",
+      "part": "PROGRAM_COMMITTEE",
+      "position": "Chairperson",
+      "linkedin": "https://www.linkedin.com/in/samarth-gupta-046b76211/",
+      "instagram": "https://www.instagram.com/samarthgupta70/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1P1BO6qlzhfWDDJDSUijniiUSaW2qA0IG",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1yrdu4bt7_HVvKdDqAATvr6JMcQ3my4Lw"
+    },
+    {
+      "rank": "1",
+      "name": "Kritin Sharma",
+      "email": "kritin36@gmail.com",
+      "stream": "ECE",
+      "part": "PROGRAM_COMMITTEE",
+      "position": "Vice-Chairperson",
+      "linkedin": "https://www.linkedin.com/in/kritin-sharma-982959a8",
+      "instagram": "https://www.instagram.com/__kritin__/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1E17aRVxWmz4k_J-RWmED8jegXXEw4Giy",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1n_iay-0iCHMUre0oDeNXXYgyUOu9h7DC"
+    }
+  ],
+  "EDITORIAL_COMMITTEE": [
+    {
+      "rank": "1",
+      "name": "Sanskriti Chauhan",
+      "email": "sanskritichauhan1712@gmail.com",
+      "stream": "IT",
+      "part": "EDITORIAL_COMMITTEE",
+      "position": "Chairperson",
+      "linkedin": "https://www.linkedin.com/in/sanskriti-chauhan-a7b3b01b8",
+      "instagram": "https://www.instagram.com/sans.dgaf/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1HcaimtEv6kFjSlFvkPbmuI1JaWUp2Erk",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1WziS1O1xzIaIYCq_IyBXcZlFgEFQqHk2"
+    },
+    {
+      "rank": "1",
+      "name": "Izhar Ahmad Hamdan",
+      "email": "izharhamdan@gmail.com",
+      "stream": "CSE",
+      "part": "EDITORIAL_COMMITTEE",
+      "position": "Vice-Chairperson",
+      "linkedin": "https://www.linkedin.com/in/i-izhar03/",
+      "instagram": "https://www.instagram.com/i_izhar03/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1DZjLMhYU0CPpSuzj3r0rKFBe01Ns3ZYl",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1pMk4g0NrjAYCuK0CsLE8vosS5p4R9mY3"
+    }
+  ],
+  "CREATIVITY_COMMITTEE": [
+    {
+      "rank": "1",
+      "name": "Kanishka Singhal",
+      "email": "kanishkasinghal06@gmail.com",
+      "stream": "ECE",
+      "part": "CREATIVITY_COMMITTEE",
+      "position": "Chairperson",
+      "linkedin": "https://www.linkedin.com/in/kanishka-singhal-39b650252",
+      "instagram": "",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1A4Ta4k-hPfnMIdvXeDmO_wELIr27po0e",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1X8up_POIsVowwSWUIJweLOK7E-M4-ikt"
+    }
+  ],
+  "DESIGN_COMMITTEE": [
+    {
+      "rank": "1",
+      "name": "Aditya Mathur",
+      "email": "adityamathur.18012003@gmail.com",
+      "stream": "BBA ",
+      "part": "DESIGN_COMMITTEE",
+      "position": "Video Editing Chairperson",
+      "linkedin": "https://www.linkedin.com/in/aditya-mathur-9254b8220",
+      "instagram": "https://www.instagram.com/atomicadi/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=13Ff3RsLfYsoK73VMVarkDEy-0QPIdZOl",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1GV9LCNS5IpBRjGV1dDkX7BQ8pF1GrS1O"
+    },
+    {
+      "rank": "2",
+      "name": "Karan Kumar",
+      "email": "karankumar.msit@gmail.com",
+      "stream": "CSE",
+      "part": "DESIGN_COMMITTEE",
+      "position": "Design Vice Chairperson",
+      "linkedin": "https://www.linkedin.com/in/karan-kumar-b21946226/",
+      "instagram": "",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1kR_VVxE2XRWB_WVmzUSaG7NZ45iCEla0",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1uJkSYmyKrQVoQ84hB6qMsDF1h57lyjyq"
+    },
+    {
+      "rank": "2",
+      "name": "Pranav Kumar ",
+      "email": "pranavkumarnair@gmail.com",
+      "stream": "CSE",
+      "part": "DESIGN_COMMITTEE",
+      "position": "Video Editing Vice Chairperson",
+      "linkedin": "https://www.linkedin.com/in/pranav-kumar-841aab22a/",
+      "instagram": "https://www.instagram.com/prxnxvvv___/",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=16LA7qRk9036WFoGKiOrhoQCmpuUT_GcT",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1W2v5c768OGSQfQYzxdSsut8cb-sRh5Nx"
+    },
+    {
+      "rank": "1",
+      "name": "Amisha Raj",
+      "email": "amisharaj222@gmail.com",
+      "stream": "ECE",
+      "part": "DESIGN_COMMITTEE",
+      "position": "Design Chairperson ",
+      "linkedin": "https://www.linkedin.com/in/amisha-raj-80896123b",
+      "instagram": "https://instagram.com/amisha._.raj?igshid=ZmZhODViOGI=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1T8lJA3dcAgjl1l-8_mx_OpwGclgjX3GO",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=15d2g6ICuWAPGLHL990umQ7Ob7iioDZ-9"
+    }
+  ],
+  "SPONSORSHIP_AND_MEMBERSHIP_DEVELOPMENT_COMMITTEE": [
+    {
+      "rank": "1",
+      "name": "Sarthak Minglani",
+      "email": "sarthakminglani@gmail.com",
+      "stream": "ECE",
+      "part": "SPONSORSHIP_AND_MEMBERSHIP_DEVELOPMENT_COMMITTEE",
+      "position": "Chairperson ",
+      "linkedin": "https://www.linkedin.com/in/sarthak-minglani-1ba97a21a",
+      "instagram": "https://instagram.com/sarthak____35?igshid=ZDdkNTZiNTM=",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1y4dj3Oqjcftscwa_CHBMqFJplNpNGz_Z",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=17XWdves8k0ap3ypadi63bl--9VojP_rc"
+    },
+    {
+      "rank": "1",
+      "name": "Mayank Khatana",
+      "email": "mayankkhatana4@gmail.com",
+      "stream": "ECE",
+      "part": "SPONSORSHIP_AND_MEMBERSHIP_DEVELOPMENT_COMMITTEE",
+      "position": "Vice-Chairperson",
+      "linkedin": "https://www.linkedin.com/in/mayank-khatana-69274b19b/",
+      "instagram": "",
+      "resume": "https://drive.google.com/u/1/open?usp=forms_web&id=1D_sZTaLjlWs5ClSiWIBO2iD8VRJusO3z",
+      "image": "https://drive.google.com/uc?export=view&pen?usp=forms_web&id=1XqfzugphqAAoRDSccrhRpYDgXo0skdv4"
+    }
+  ]
 }

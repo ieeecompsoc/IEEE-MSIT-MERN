@@ -14,12 +14,13 @@ const Team =
 	"RAS" : [],
 	"PES" : [],
 	"WIE" : [],
-	"WEB_DEV_COMMITTEE" : [],
+  "PROJECT_COMMITTEE" : [],
 	"PUBLICITY_COMMITTEE" : [],
 	"PROGRAM_COMMITTEE" : [],
-	"PROJECT_COMMITTEE" : [],
 	"EDITORIAL_COMMITTEE" : [],
-	"DESIGN_COMMITTEE" : []
+  "CREATIVITY_COMMITTEE" : [],
+	"DESIGN_COMMITTEE" : [],
+   "SPONSORSHIP_AND_MEMBERSHIP_DEVELOPMENT_COMMITTEE":[]
 }
 
 // form data format case may differ
