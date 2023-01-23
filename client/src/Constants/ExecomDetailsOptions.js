@@ -10,14 +10,14 @@ const execomDetailsOptions = [
         heading_color: "#00629B"
     },
     {
-        execom_section: "ras",
-        section_heading: "IEEE RAS",
-        heading_color: "#BA0C2F"
-    },
-    {
         execom_section: "cs",
         section_heading: "IEEE CS",
         heading_color: "#FFA300"
+    },
+    {
+        execom_section: "ras",
+        section_heading: "IEEE RAS",
+        heading_color: "#BA0C2F"
     },
     {
         execom_section: "pes",
@@ -26,12 +26,12 @@ const execomDetailsOptions = [
     },
     {
         execom_section: "wie",
-        section_heading: "IEEE WIE",
+        section_heading: "IEEE WiE",
         heading_color: "#981D97"
     },
     {
         execom_section: "",
-        section_heading: "Web Development Committee",
+        section_heading: "Project and Web Dev Committee",
         heading_color: "#000000"
     },
     {
@@ -46,17 +46,22 @@ const execomDetailsOptions = [
     },
     {
         execom_section: "",
-        section_heading: "Project Committee",
-        heading_color: "#000000"
-    },
-    {
-        execom_section: "",
         section_heading: "Editorial Committee",
         heading_color: "#000000"
     },
     {
         execom_section: "",
+        section_heading: "Creativity Committee",
+        heading_color: "#000000"
+    },
+    {
+        execom_section: "",
         section_heading: "Design Committee",
+        heading_color: "#000000"
+    },
+    {
+        execom_section: "",
+        section_heading: "Sponsorship and Membership Development Committee",
         heading_color: "#000000"
     }
 ]

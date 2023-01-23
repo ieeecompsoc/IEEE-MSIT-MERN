@@ -1,10 +1,10 @@
 ### Updating the ExeCom members details
 1. Contact the person who have the current ExeCom member details
 2. Copy the file contents and paste them into a new file
-3. Delete all the unnecessary columns excpet for 
+3. Delete all the unnecessary columns except for 
 
 ```
-name, email, stream, part, postion, linkedin, instagram, resume, image, rank
+name, email, stream, part, position, linkedin, instagram, resume, image, rank
 ```
 4. Create a rank column and assign the corresponding ranks
 

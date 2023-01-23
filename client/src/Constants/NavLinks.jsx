@@ -27,13 +27,17 @@ const NavItems = [
         route: '/about'
     },
     {
-        display: 'Events',
-        route: '/events'
+        display: 'Gallery',
+        route: '/gallery'
     },
-    {
-        display: 'Blogs',
-        route: '/blogs'
-    },
+    // {
+    //     display: 'Events',
+    //     route: '/events'
+    // },
+    // {
+    //     display: 'Blogs',
+    //     route: '/blogs'
+    // },
     {
         display: 'Executive Board',
         route: '/execom'
