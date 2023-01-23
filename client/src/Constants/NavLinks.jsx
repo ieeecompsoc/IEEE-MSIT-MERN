@@ -26,6 +26,10 @@ const NavItems = [
         display: 'About Us',
         route: '/about'
     },
+    {
+        display: 'Gallery',
+        route: '/gallery'
+    },
     // {
     //     display: 'Events',
     //     route: '/events'
