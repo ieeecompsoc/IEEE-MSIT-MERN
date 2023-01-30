@@ -158,7 +158,7 @@ const ExeCom = () => {
             <Menubar backgroundClr="#009CA6" />
             <div className="app__execom-mainContainer">
                 <div className="app__execom-headerContainer">
-                    <h1 className="app__execom-header">Meet the Execom 2022-23</h1>
+                    <h1 className="app__execom-header">Meet the Execom 2023</h1>
                     <div className="hr-header"></div>
                 </div>
                 <div className='app__execom-execomListContainer'>
